@@ -1,0 +1,8 @@
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { reviews } from '../data/reviews';
+export function ReviewsSection({titleKey = 'reviews.title',subtitleKey}: {titleKey?:string;subtitleKey?:string}) {
+  const { t } = useTranslation();
+  const [paused, setPaused] = useState(false);
+  return <section className="reviews" aria-labelledby="reviews-title"><div className="reviews-heading section-inset"><h2 id="reviews-title">{t(titleKey)}</h2><button className="review-pause" onClick={() => setPaused(!paused)} aria-label={t(paused ? 'reviews.play' : 'reviews.pause')} aria-pressed={paused}><svg viewBox="0 0 20 20" aria-hidden="true">{paused ? <path d="m6 3 11 7-11 7Z"/> : <path d="M5 4h3v12H5zm7 0h3v12h-3z"/>}</svg></button></div>{subtitleKey && <p className="reviews-subtitle section-inset">{t(subtitleKey)}</p>}<div className={`reviews-viewport${paused ? ' is-paused' : ''}`}><div className="reviews-track">{[0,1].map(copy => <div className="reviews-group" key={copy} aria-hidden={copy === 1 ? true : undefined}>{reviews.map(review => <article className="review-card" key={review.id} tabIndex={copy === 0 ? 0 : -1}><h3>{t(review.titleKey)}</h3><p>{review.author}</p><div className="stars" role="img" aria-label={t('reviews.rating', { count: review.rating })}>{Array.from({ length: 5 }, (_, index) => <svg key={index} viewBox="0 0 24 24" aria-hidden="true" className={index < review.rating ? 'star--filled' : 'star--empty'}><path d="m12 1 3.4 7 7.6 1.1-5.5 5.4 1.3 7.6L12 18.5l-6.8 3.6 1.3-7.6L1 9.1 8.6 8Z"/></svg>)}</div></article>)}</div>)}</div></div></section>;
+}

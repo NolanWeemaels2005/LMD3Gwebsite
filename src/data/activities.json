@@ -1,0 +1,266 @@
+{
+  "categories": [
+    {
+      "id": "eten-drinken",
+      "name": "Eten & drinken"
+    },
+    {
+      "id": "dorpen-steden",
+      "name": "Dorpen & steden"
+    },
+    {
+      "id": "natuur",
+      "name": "Natuur"
+    },
+    {
+      "id": "activiteiten",
+      "name": "Activiteiten"
+    },
+    {
+      "id": "markten-winkels",
+      "name": "Markten & winkels"
+    }
+  ],
+  "items": [
+    {
+      "id": "la-table-des-epiciers",
+      "name": "La table des epiciers",
+      "category": "Eten & drinken",
+      "location": "Lorgues",
+      "address": "4 Av Allongue, 83510 Lorgues, France",
+      "description": "Geniet van een gezellige avond bij Luc. Met Belgische kost en een fris belgisch biertje.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/ab/1a/33/caption.jpg?w=1200&h=1200&s=1",
+      "driveTimeMinutes": 23
+    },
+    {
+      "id": "bistrot-le-ptit-bouchon",
+      "name": "Bistrot le p’tit bouchon",
+      "category": "Eten & drinken",
+      "location": "Le Thoronet",
+      "address": "220 chemin de Grand Clos, 83340 Le Thoronet, France",
+      "description": "Verse ingrediënten, leuke bediening en een prachtige setting met uitzicht op de wijngaard.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/f8/25/d6/nouvelle-terrasse-sur.jpg?w=1200&h=1200&s=1",
+      "driveTimeMinutes": 16
+    },
+    {
+      "id": "le-clos-des-vignes",
+      "name": "Le Clos des Vignes",
+      "category": "Eten & drinken",
+      "location": "Cotignac",
+      "address": "D22 Route de Montfort Claou de Vachoun – Nestuby district, 83570 Cotignac France",
+      "description": "Seizoensgebonden gerechten op een afgelegen domein in de wijngaarden",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/b9/f5/a9/le-clos-des-vignes.jpg?w=1200&h=1200&s=1",
+      "driveTimeMinutes": 12
+    },
+    {
+      "id": "chateau-mentone",
+      "name": "Chateau Mentone",
+      "category": "Eten & drinken",
+      "location": "Saint-Antonin-du-Var",
+      "address": "401 Chem. de Mentone, 83510 Saint-Antonin-du-Var, Frankrijk",
+      "description": "Kies voor verse lokale gerechten uit hun menu. Met een lekker glaasje wijn uit hun domein.",
+      "imageUrl": "https://www.chateaumentone.com/media/cache/jadro_resize/rc/Wp7GSwDm1780905657/jadroRoot/medias/54e608422f145/64c8c04e35acb/la-table_paysage-18.jpg",
+      "driveTimeMinutes": 19
+    },
+    {
+      "id": "vigna",
+      "name": "Vigna",
+      "category": "Eten & drinken",
+      "location": "",
+      "address": "",
+      "description": "Geniet van een heerlijk driegangen menu met steeds keuze uit drie gerechten met uizicht over het prachtige domein en een heerlijk glaasje wijn.",
+      "imageUrl": "https://www.chateaulamartinette.com/_novaimg/5621767-1597406_0_0_4800_3053_2200_1400.jpg",
+      "driveTimeMinutes": 25
+    },
+    {
+      "id": "la-table-de-pol",
+      "name": "La table de Pol",
+      "category": "Eten & drinken",
+      "location": "Lorgues",
+      "address": "18 Pl. Georges Clemenceau, 83510 Lorgues, Frankrijk",
+      "description": "Klassevol dineren in het centrum van Lorgues.",
+      "imageUrl": "https://cdn.thefork.com/tf-lab/image/upload/w_1080,c_fill,q_auto,f_auto/customer/084c0650-9b8e-4357-bebe-5fad1c069051/d5f1f454-9b62-4575-8417-b4e7108a86b4.jpg",
+      "driveTimeMinutes": 24
+    },
+    {
+      "id": "le-bout-du-monde",
+      "name": "Le bout du monde",
+      "category": "Eten & drinken",
+      "location": "Salernes",
+      "address": "Chemin du Pelcourt, 83690 Salernes France",
+      "description": "Restaurant met een traditionele keuken, gespecialiseerd in kalfsnieren, zwezerik, andouillette, verse vis en coquilles; geen vegetarische of veganistische opties.",
+      "imageUrl": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMTUwLzE3MC83NTgwMzEwLmpwZw==/image.webp",
+      "driveTimeMinutes": 27
+    },
+    {
+      "id": "cotignac",
+      "name": "Cotignac",
+      "category": "Dorpen & steden",
+      "location": "Cotignac",
+      "address": "Cotignac 83570, France",
+      "description": "Schilderachtig en karaktervol dorp dat officieël is uitgeroepen tot één van de mooiste dorpen van Frankrijk. Ligt aan de voet van een rotswand met historische grotwoningen.",
+      "imageUrl": "https://img.provenceholidays.com/16618e22-f663-4dc5-1b92-60966f9c3d00/w=3840,h=2880,fit=cover",
+      "driveTimeMinutes": 16
+    },
+    {
+      "id": "tourtour",
+      "name": "Tourtour",
+      "category": "Dorpen & steden",
+      "location": "Tourtour",
+      "address": "Tourtour 83690, France",
+      "description": "Middeleeuws bergdorp op een hoogte van 635m, wat prachtige uitzichten op de streek geeft. Ook wel gekend als: “village dans le ciel de Provence”.",
+      "imageUrl": "https://www.francecomfort.com/l/be/library/download/urn:uuid:e22b3509-4c1e-4242-a1b3-8f3701e80198/tourtour+1+vakantiehuis+luxe+villa+zwembad+var+provence+frankrijk+plus+beau+village.jpg?width=1280&height=800&scaleType=6",
+      "driveTimeMinutes": 38
+    },
+    {
+      "id": "villecroze",
+      "name": "Villecroze",
+      "category": "Dorpen & steden",
+      "location": "Villecroze",
+      "address": "Villecroze 83690, France",
+      "description": "Een charmant middeleeuws dorp, bekend om zijn eeuwen oude grotten, het middeleeuws centrum en het prachtige park met watervallen.",
+      "imageUrl": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/5/196/19514373.jpg",
+      "driveTimeMinutes": 29
+    },
+    {
+      "id": "port-grimaud",
+      "name": "Port Grimaud",
+      "category": "Dorpen & steden",
+      "location": "Port Grimaud",
+      "address": "Port Grimaud 83310, France",
+      "description": "Wereldwijd bekend als het Venetië van de Provence. Gemakkelijk vervoer naar Saint-Tropez via de veerboot.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ee/c5/a9/port-grimaud.jpg?w=1200&h=1200&s=1",
+      "driveTimeMinutes": 70
+    },
+    {
+      "id": "sanary-sur-mer",
+      "name": "Sanary-sur-Mer",
+      "category": "Dorpen & steden",
+      "location": "Sanary-sur-Mer",
+      "address": "Sanary-sur-Mer 83110, France",
+      "description": "Authentieke kustplaats en vissershaven. Staat bekend om de traditionele oude vissersboten en gekleurde gevels. (In het hoogseizoen, elke avond is er een avondmarkt)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sanary-sur-Mer.jpg?utm_source=nl.wikipedia.org&utm_campaign=index&utm_content=original",
+      "driveTimeMinutes": 69
+    },
+    {
+      "id": "chutes-du-caramy",
+      "name": "Chutes du Caramy",
+      "category": "Natuur",
+      "location": "Carcès",
+      "address": "Carcès, 83570, France",
+      "description": "Prachtige dubbele waterval verborgen in een groene bosrijke kloof. Niet bereikbaar met de wagen. Je parkeert het best op de parking van le lac de Carcès.",
+      "imageUrl": "https://vcdn.bergfex.at/images/resized/profiles/detail/cda/d0e6820d4df166dc74e3ee3e5ddb6cda.jpg",
+      "driveTimeMinutes": 5
+    },
+    {
+      "id": "cascade-de-sillans",
+      "name": "Cascade de Sillans",
+      "category": "Natuur",
+      "location": "Sillans-la-Cascade",
+      "address": "Place du 8 Mai 1945, 83690 Sillans-la-Cascade, Frankrijk",
+      "description": "Eén van de meest indrukwekkende watervallen van de Var. Van aan de parking (in de zomer betalend) is het ongeveer 20 minuten wandelen.",
+      "imageUrl": "https://lapetitevalisedaurelie.com/wp-content/uploads/2024/09/Sillans-la-Cascade.jpg",
+      "driveTimeMinutes": 28
+    },
+    {
+      "id": "le-lac-de-quinson",
+      "name": "Le lac de Quinson",
+      "category": "Natuur",
+      "location": "Quinson",
+      "address": "Route de Riez (D11), 04500 Quinson, Frankrijk",
+      "description": "Wandel langs langs het smaragdgroene water, over houten loopbruggen, stenen trappen en door in de rotsen uitgehouwen tunnels.",
+      "imageUrl": "https://laperleduverdon.fr/wp-content/uploads/2021/08/Pont-de-Quinson.jpg",
+      "driveTimeMinutes": 44
+    },
+    {
+      "id": "sentier-du-littoral-van-saint-tropez",
+      "name": "Sentier du Littoral van Saint-Tropez",
+      "category": "Natuur",
+      "location": "Saint-Tropez",
+      "address": "83990 Saint-Tropez, Frankrijk",
+      "description": "Deze indrukwekkende wandelroute loopt langs de ruige kalksteenkliffen, verborgen turquoise baaitjes en witte zandstranden van het schiereiland van Saint-Tropez. Het pad biedt wandelaars een unieke blik op de \"wilde kant\" van de regio, ver weg van de drukte van de jachthaven. (Wandeling van 12 km).",
+      "imageUrl": "https://www.alltrails.com/mugen/image/trail-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjYwNjU0ODUvNjgzMzA2MjRhMWU3MjdjODMyMTUyZDU4ZGVkZjQ1YTcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiMTA4MCIsImhlaWdodCI6IjcwMCIsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=3840&q=75",
+      "driveTimeMinutes": 81
+    },
+    {
+      "id": "domaine-fontainebleau-en-provence",
+      "name": "Domaine Fontainebleau en Provence",
+      "category": "Activiteiten",
+      "location": "Le Val",
+      "address": "Route de Montfort sur Argens, 83143 Le Val, Frankrijk",
+      "description": "Een prachtig en prestigieus biologisch wijndomein van 170 hectare, geniet van de heerlijke proeverij of ontdek het domein zelf in een golfkarretje.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/52/61/a1/nos-arcades.jpg?w=1200&h=1200&s=1",
+      "driveTimeMinutes": 8
+    },
+    {
+      "id": "prestige-karting-le-luc",
+      "name": "Prestige Karting Le Luc",
+      "category": "Activiteiten",
+      "location": "Le Luc",
+      "address": "Rte des Mayons, 83340 Le Luc, Frankrijk",
+      "description": "Ervaar je graag eens hoe het voelt om Max Verstappen te zijn of kijk je eens graag wie de echt snelheidsduivel is van de familie kan je terecht op de prestige karting in Le Luc. (Ook mogelijkheid voor kinderen onder 12 jaar)",
+      "imageUrl": "https://i0.wp.com/rohrbasserdrivingschool.com/wp-content/uploads/2019/09/cropped-24h-karting-le-luc.jpg?fit=960%2C540&ssl=1",
+      "driveTimeMinutes": 35
+    },
+    {
+      "id": "verdon-electronautic",
+      "name": "Verdon Electronautic",
+      "category": "Activiteiten",
+      "location": "Quinson",
+      "address": "600 Allée des Prés du Verdon, 04500 Quinson, France",
+      "description": "Beschikt over een vloot van ruim 30 elektrische bootjes om een toer van het meer te doen.",
+      "imageUrl": "https://www.verdon-electronautic.com/media/images/gallery/12/big/104.jpg",
+      "driveTimeMinutes": 43
+    },
+    {
+      "id": "mountainbike-afdaling-vtt-dh-enduro",
+      "name": "Mountainbike-afdaling (VTT DH / Enduro)",
+      "category": "Activiteiten",
+      "location": "Carcès",
+      "address": "Carcès, 83570, France",
+      "description": "Dit \"secret spot\" fietspark ligt in de heuvels pal boven het Lac de Carcès en biedt rasechte, technische afdalingstracks met uitdagende jumps, drops, strakke switchbacks en kombochten (VOOR ERVAREN MOUNTAINBIKERS). Je kunt de auto het beste gratis parkeren op de Parking du Lac de Carcès",
+      "imageUrl": "https://www.ourouler.com/upload/pistes/big/dh-freeride-dh-team-carces-63238c5dc5d18.jpg",
+      "driveTimeMinutes": 43
+    },
+    {
+      "id": "wekelijkse-markt-lorgues",
+      "name": "Weekelijkse markt Lorgues",
+      "category": "Markten & winkels",
+      "location": "Lorgues",
+      "address": "Lorgues, 83510, France",
+      "description": "Zeer toeristische weekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag",
+      "imageUrl": "https://blog.villa.nl/wp-content/uploads/2024/07/0lorgues-markt-2-copy-1024x1024.jpg",
+      "driveTimeMinutes": 22
+    },
+    {
+      "id": "wekelijkse-markt-cotignac",
+      "name": "Weekelijkse markt Cotignac",
+      "category": "Markten & winkels",
+      "location": "Cotignac",
+      "address": "Cotignac, 83570, France",
+      "description": "Zeer authentieke en gezellige provencaalse markt. Elke dinsdag, tip: in het hoogseizoen best vroeg gaan.",
+      "imageUrl": "https://www.loucalen.com/wp-content/uploads/2026/03/marche-de-cotignac-2.jpg",
+      "driveTimeMinutes": 16
+    },
+    {
+      "id": "wekelijkse-markt-salernes",
+      "name": "Weekelijkse markt Salernes",
+      "category": "Markten & winkels",
+      "location": "Salernes",
+      "address": "Salernes, 83690, France",
+      "description": "Traditionele provencaalse markt onder de schaduw van de platanen. Elke woensdag en zondag voormiddag.",
+      "imageUrl": "https://www.francecomfort.com/l/be/library/download/urn:uuid:71daeb54-cfc0-4fe3-9f57-c7df76a542a0/provence+salernes+10+cotignac+markt+vakantie+frankrijk+luxe+villa+zwembad+toeristisch.jpg?width=600&height=375&scaleType=6",
+      "driveTimeMinutes": 24
+    },
+    {
+      "id": "wekelijkse-markt-carces",
+      "name": "Weekelijkse markt Carcès",
+      "category": "Markten & winkels",
+      "location": "Carcès",
+      "address": "Carcès, 83570, France",
+      "description": "Kleinschalige weekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXFUZ9FsJs4H7PAnb4YIFx2Ws3eJCEOZlKnMU_6ZgqJLbpFPhoMU43Hbz&s=10",
+      "driveTimeMinutes": 4
+    }
+  ]
+}

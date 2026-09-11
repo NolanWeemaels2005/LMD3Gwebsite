@@ -1,0 +1,240 @@
+{
+  "brand": "La Maison Des Trois Garçons",
+  "languages": {
+    "nl": "Nederlands",
+    "fr": "français",
+    "en": "English"
+  },
+  "social": {
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "rental": "Reis Verhuur",
+    "reli": "Reli"
+  },
+  "nav": {
+    "book": "Book now",
+    "gallery": "Gallery",
+    "home": "Home",
+    "nearby": "Nearby",
+    "benefits": "Highlights",
+    "open": "Open menu",
+    "close": "Close menu",
+    "label": "Main navigation",
+    "skip": "Skip to content",
+    "activities": "Activities",
+    "reserve": "Book",
+    "about": "About us",
+    "pending": "This page is being prepared."
+  },
+  "hero": {
+    "title": "La Maison Des\nTrois Garçons",
+    "body": "La Maison Des Trois Garçons, a charming holiday\nhome in Carcès, in the heart of Provence.\nEnjoy peace, nature and the charm of southern France.",
+    "alt": "The Provençal villa with blue shutters and its sunlit swimming pool"
+  },
+  "gallery": {
+    "title": "A picture is worth a thousand words.",
+    "body": "A little taste of everything\nLa Maison Des Trois Garçons has to offer.",
+    "previous": "Previous image",
+    "next": "Next image",
+    "label": "Holiday home photographs",
+    "progress": "Photo gallery progress"
+  },
+  "location": {
+    "title": "Discover Carcès and the heart of Provence",
+    "subtitle": "Tucked away in the heart of southern France",
+    "body": "La Maison Des Trois Garçons is set in Carcès, a charming Provençal village in the Var. From the house, it’s easy to explore the countryside, vineyards, local markets and characterful villages of Provence. The ideal base for a relaxing holiday in southern France, with plenty of sights and activities nearby.",
+    "button": "All activities",
+    "map": "Carcès, in southeastern France, in Provence"
+  },
+  "reviews": {
+    "title": "They’ve already had a taste of Provence.",
+    "rating": "{{count}} out of 5 stars",
+    "pause": "Pause reviews",
+    "play": "Play reviews",
+    "karel": "A beautiful home in peaceful surroundings",
+    "danielle": "We had a wonderful stay in the house, with a lovely swimming pool and a beautiful garden.",
+    "justine": "A lovely holiday!",
+    "kellin": "Easy booking and excellent follow-up",
+    "sally": "Wonderful!"
+  },
+  "cta": {
+    "title": "Ready for Provence?",
+    "subtitle": "Your stay in Carcès starts here."
+  },
+  "footer": {
+    "pages": "Pages",
+    "links": "Useful links",
+    "language": "Choose your language",
+    "social": "Social media",
+    "legal": "Legal",
+    "cookies": "Cookies",
+    "privacy": "Privacy"
+  },
+  "photos": {
+    "caroussel0": "Sun loungers on the poolside terrace",
+    "caroussel1": "The Mediterranean garden beside the villa",
+    "caroussel2": "A peaceful path through the garden",
+    "caroussel3": "The pétanque court among the trees",
+    "caroussel4": "The swimming pool at sunset",
+    "caroussel5": "The garden table beside the pool",
+    "caroussel6": "The covered summer kitchen with wooden beams",
+    "caroussel7": "Bathroom with a walk-in shower and round mirror",
+    "caroussel8": "A double bedroom with green accents",
+    "caroussel9": "A bright bedroom overlooking the garden",
+    "caroussel10": "The children’s room with bunk beds",
+    "caroussel11": "A bedroom with twin beds",
+    "caroussel12": "The living room with wooden beams",
+    "caroussel13": "The bright bathroom with two round mirrors"
+  },
+  "activities": {
+    "heroTitle": "Experience Provence\naround Carcès",
+    "heroBody": "From charming Provençal villages and local markets to restaurants, vineyards and beautiful countryside. Discover the surroundings of Carcès and make the most of your stay in the heart of Provence.",
+    "heroAlt": "A Provençal village beyond the vineyards",
+    "favoritesTitle": "Our favourites",
+    "favoritesBody": "A selection of places you won’t want to miss during your stay.",
+    "allTitle": "Explore the local area",
+    "allBody": "From a restaurant to dream about to tomorrow’s adventure.",
+    "favorite": "Favourite",
+    "route": "Directions",
+    "more": "More results",
+    "empty": "No results found for this combination.",
+    "reset": "Show all",
+    "all": "All",
+    "location": "Village",
+    "allLocations": "All villages",
+    "category": "Category",
+    "imageUnavailable": "Image unavailable",
+    "hour": "h",
+    "minute": "min",
+    "categories": {
+      "eten-drinken": "Food & drink",
+      "dorpen-steden": "Villages & towns",
+      "natuur": "Nature",
+      "activiteiten": "Activities",
+      "markten-winkels": "Markets & shops"
+    },
+    "labels": {
+      "eten-drinken": "Food & drink",
+      "dorpen-steden": "Village & culture",
+      "natuur": "Nature",
+      "activiteiten": "Activity",
+      "markten-winkels": "Market & shop"
+    }
+  },
+  "advantages": {
+    "hero": {
+      "title": "Everything for a\ncarefree stay",
+      "description": "La Maison Des Trois Garçons offers everything you need for a comfortable and unforgettable holiday in Provence.",
+      "alt": "The Provençal holiday home with blue shutters and a sunny terrace"
+    },
+    "section": {
+      "title": "The highlights of La Maison Des Trois Garçons",
+      "subtitle": "Our holiday home in Carcès has everything you need for a comfortable stay and a taste of the good life in Provence."
+    },
+    "brochure": {
+      "title": "Want to take another look?",
+      "subtitle": "Download the complete overview of all the facilities at\nLa Maison Des Trois Garçons.",
+      "button": "Download the brochure",
+      "accessibleLabel": "Download the La Maison Des Trois Garçons brochure"
+    },
+    "gallery": {
+      "label": "Photos of the facilities",
+      "pool": {
+        "label": "Pool and terrace",
+        "alt": "The pool and terrace seating area at sunset"
+      },
+      "bathroom": {
+        "label": "Bathroom",
+        "alt": "Bathroom with a walk-in shower and illuminated round mirror"
+      },
+      "bedroom": {
+        "label": "Bedroom",
+        "alt": "A bright double bedroom with green accents"
+      },
+      "petanque": {
+        "label": "Pétanque court",
+        "alt": "The pétanque court among the garden trees"
+      },
+      "kitchen": {
+        "label": "Outdoor kitchen",
+        "alt": "The covered outdoor kitchen with wooden beams"
+      }
+    },
+    "items": {
+      "pool": {
+        "title": "Private pool",
+        "description": "Enjoy the peace of your own private pool, measuring 8.5 m by 4.5 m."
+      },
+      "bedrooms": {
+        "title": "4 bedrooms",
+        "description": "Comfortable bedrooms for a relaxing stay."
+      },
+      "bathrooms": {
+        "title": "2 bathrooms",
+        "description": "One with a bath, the other with a walk-in shower and toilet."
+      },
+      "kitchen": {
+        "title": "Fully equipped kitchen + outdoor kitchen",
+        "description": "Everything you need to prepare your own meals."
+      },
+      "wifi": {
+        "title": "WiFi network",
+        "description": "Stay connected with ease."
+      },
+      "airco": {
+        "title": "Air conditioning",
+        "description": "A comfortable indoor temperature, even on hot summer days."
+      },
+      "toilets": {
+        "title": "2 toilets",
+        "description": "One separate toilet and one in a bathroom."
+      },
+      "barbecue": {
+        "title": "Gas barbecue",
+        "description": "Enjoy delicious food from the barbecue whenever you like."
+      },
+      "petanque": {
+        "title": "Pétanque court",
+        "description": "A pétanque court and several sets of boules are available for a fun evening activity."
+      },
+      "quiet": {
+        "title": "Peaceful location",
+        "description": "Enjoy a quiet stay in a cul-de-sac, without being overlooked by neighbours."
+      }
+    }
+  },
+  "reservation": {
+    "heroTitle": "Your holiday starts here,\nat La Maison Des Trois Garçons.",
+    "heroBody": "Ready for sunshine, peace and the good life? Plan your stay at La Maison Des Trois Garçons in Carcès and enjoy a holiday in the heart of Provence.",
+    "heroAlt": "The terrace with a dining table, loungers and private pool",
+    "title": "Book your stay",
+    "intro": "You can contact us using the form below.\nWe’ll get back to you as soon as possible to help arrange your holiday.\n\nArrivals and departures are only possible on Sundays. Stays start at one week, from Sunday to Sunday.",
+    "name": "Name",
+    "contact": "Email or telephone number",
+    "date": "Dates",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending…",
+    "nameError": "Enter your name (at least 2 characters).",
+    "contactError": "Enter a valid email address or telephone number.",
+    "dateError": "Select a stay of at least 7 days, from Sunday to Sunday.",
+    "submitError": "Something went wrong while sending. Please try again.",
+    "successTitle": "Thank you for your enquiry!",
+    "successBody": "We’ll contact you as soon as possible to confirm availability.",
+    "newRequest": "New enquiry",
+    "reviewsTitle": "Others have already stayed with us.",
+    "reviewsSubtitle": "Read about their experiences at La Maison Des Trois Garçons.",
+    "arrival": "Arrival",
+    "departure": "Departure",
+    "datePlaceholder": "Choose arrival and departure",
+    "calendar": "Choose your stay dates",
+    "minimumDeparture": "Select a Sunday departure on or after {{date}}.",
+    "chooseArrival": "Select a Sunday arrival. Minimum stay: one week, from Sunday to Sunday.",
+    "nextMonth": "Next month",
+    "previousMonth": "Previous month",
+    "calendarNavigation": "Calendar navigation",
+    "clearDates": "Clear dates",
+    "closeCalendar": "Close"
+  }
+}

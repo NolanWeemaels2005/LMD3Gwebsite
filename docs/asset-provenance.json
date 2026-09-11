@@ -1,0 +1,355 @@
+{
+  "photos": [
+    {
+      "source": "BottomP1.HEIC",
+      "sourceSha256": "2c64370c248004725ed89981da165bfad9143b9bdc8a949498514b6c80bfdeac",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp1-480.webp",
+          "sha256": "b17db0071311809e20ea4ac89a1177a1b49244439f495547f1e2606165e4af02"
+        },
+        {
+          "path": "src/assets/images/bottomp1-960.webp",
+          "sha256": "0b60c66fc3131cdb1c9aa42e6416f8b390a1f01622c28fbe8043ee8008221760"
+        }
+      ]
+    },
+    {
+      "source": "BottomP2.HEIC",
+      "sourceSha256": "6eaab03f4664c5ed777a9d45b2dba4e8b85d71776130493342711342b96b3aff",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp2-480.webp",
+          "sha256": "ef5fd7918f9a1a412ee027ca81fb9ec7a0989ee469d205f2f06709118c809300"
+        },
+        {
+          "path": "src/assets/images/bottomp2-960.webp",
+          "sha256": "1be75fbce3833b51544a91dfe0af643cb92862dc0ca1175a7c0ed95aa6fe8818"
+        }
+      ]
+    },
+    {
+      "source": "BottomP3.HEIC",
+      "sourceSha256": "f75f562124b0ec82fc782e97e72682550cd9b93b673a7b07f33d61e5556c21a9",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp3-480.webp",
+          "sha256": "47bed1fe45d0bdf4027ecb7eaba92be42ec7233a9ce467a9e0b87441e9ff0374"
+        },
+        {
+          "path": "src/assets/images/bottomp3-960.webp",
+          "sha256": "e0fb4e4d106d140d0743c2cdd8ef802b59e507f3ed5706504e457881804f0baa"
+        }
+      ]
+    },
+    {
+      "source": "BottomP4.JPG",
+      "sourceSha256": "b881d12b691e025c9a844d48250ba57147ec07d7309112abea978e56d55621cb",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp4-480.webp",
+          "sha256": "6296000bbca9ac27ae072e0da0394ef8d0f1811c884beff7f6c3e10758165c66"
+        },
+        {
+          "path": "src/assets/images/bottomp4-960.webp",
+          "sha256": "94a163fdcc5047d6df78e599d60dcdb80523b17165c820b69c747294e447a366"
+        }
+      ]
+    },
+    {
+      "source": "BottomP5.JPG",
+      "sourceSha256": "9f4fcfb1e82f4d80d01dd35d5fe874036d59dbd86253317df9a38c31f1b28553",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp5-480.webp",
+          "sha256": "b71628caa3a88440eb5bf20d3b693a91649f2f2435ded10e0000ee17b5e0abd4"
+        },
+        {
+          "path": "src/assets/images/bottomp5-960.webp",
+          "sha256": "e5b2aa8e21f06ed979b2194f7b107e871f81aa2b7823359e0e403f78c6d10018"
+        }
+      ]
+    },
+    {
+      "source": "BottomP6.heic",
+      "sourceSha256": "c25a1db161c536a3461ecf3a5aadd3eaa615a8da21baad53963a53119dadaf20",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp6-480.webp",
+          "sha256": "2c2fcf5b92706c5605ff78a46e3e1f8505fb413a236993df198596b64d08c89b"
+        },
+        {
+          "path": "src/assets/images/bottomp6-960.webp",
+          "sha256": "e4cdb6abd88a8383623a9c1f3682470ca09f1420aa676c377b01e8c0f05171e5"
+        }
+      ]
+    },
+    {
+      "source": "BottomP7.HEIC",
+      "sourceSha256": "c7f8818ff2edf6bf01cb2065737e39df46fe2df0241ce03b2ba875df3df5c84c",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/bottomp7-480.webp",
+          "sha256": "9a3c7a6dba1dc4c99f968a1ff600e5966f757882886552f826066dc8c9c95e6c"
+        },
+        {
+          "path": "src/assets/images/bottomp7-960.webp",
+          "sha256": "6e747ec30777d75e7e8246b7f1df3f06f4d86f666ca65ebc26a322f6f17fc36d"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel0.JPG",
+      "sourceSha256": "c9e4cc6083b18214f87ffe6f4ded98e42c0d126b35d1a0f5a074556092004fad",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel0-480.webp",
+          "sha256": "fc5c9c1cb5ef51a669d3c182a4830b8428330b8752db14a79df5851c2f442b14"
+        },
+        {
+          "path": "src/assets/images/caroussel0-960.webp",
+          "sha256": "f01f05a18b54413a6917e0431e1cba59d984802c4d7ae5298cffaa391362eeef"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel1.HEIC",
+      "sourceSha256": "70d486add2831c927bec673855891bdc93ea289e51e31ceaca3e516e144205ca",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel1-480.webp",
+          "sha256": "7225537260501167684e4be95b0a885be8252b2272303ae28bd4245e051c7678"
+        },
+        {
+          "path": "src/assets/images/caroussel1-960.webp",
+          "sha256": "71aed49e040ae6931a36e8c11257d13553f48278bc1c38006c7a2593c31056d5"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel10.HEIC",
+      "sourceSha256": "685604649d97e47fc586e7a481a35ff912c81aa917aa3c1dc9f3f94ecc71f8b5",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel10-480.webp",
+          "sha256": "fe7b4158ba279b4ea36ca11b0fb700a444ed7d72bff19b815d07afc8dd37732c"
+        },
+        {
+          "path": "src/assets/images/caroussel10-960.webp",
+          "sha256": "b2b87669686c96c34cf66e0716f5f09f679c33d0375144ae2a475d5938541a5c"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel11.HEIC",
+      "sourceSha256": "11dbe4aeca3eb3346388f0e49fd2a480ac0120068cf48dce0e7d83ac0e96c6f4",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel11-480.webp",
+          "sha256": "7ff34c5ab935c732b24ad20587c43e3edd8db012a34a3447fdca4e1e5d2b9bd1"
+        },
+        {
+          "path": "src/assets/images/caroussel11-960.webp",
+          "sha256": "6d194c479099f6ca932ea40e4df7d4a34ed42018c403d65b87a100b75a15a742"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel12.HEIC",
+      "sourceSha256": "afa7ec77631e920bd7a5cb245c37873433bb179acace689ac874e0d61ca4d6b2",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel12-480.webp",
+          "sha256": "92cdd71ce4877cfeb6393e5638cfa8732314afa7d57ef3cb255b42b9ee40ff1a"
+        },
+        {
+          "path": "src/assets/images/caroussel12-960.webp",
+          "sha256": "64dc309785609f9fd568e6be489843bd6d9958fcf52e8f64d5a1581aa12ac9a3"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel13.jpg",
+      "sourceSha256": "9a703533f82c6b48e9fa17ce8752448bfaa1ae43c8fa8c7f91a1ef5ef3e09553",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel13-480.webp",
+          "sha256": "1b645c3de961e3f649bd818bbcdb2ea22bad3a8714b67538d4f8d70c91da19bf"
+        },
+        {
+          "path": "src/assets/images/caroussel13-960.webp",
+          "sha256": "d9306d94e8dc8504fc9d1516dc68167523a945de2d0322f7d521820580e5c0bc"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel2.HEIC",
+      "sourceSha256": "7b20310425c8b0a1d0f7612ca700ba6559a7fcaf8e9d4d4c6931bb2de873a4a0",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel2-480.webp",
+          "sha256": "ab2dcb159bee1b752f9ee4ea44378870f811572ebd87a813c662335ee1c03550"
+        },
+        {
+          "path": "src/assets/images/caroussel2-960.webp",
+          "sha256": "b872174d828ad2da734a7cdd9fc40dfe5bd7e9041cd3a9e74a527244ffd28191"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel3.JPG",
+      "sourceSha256": "eabefbb8b1df5b2ced3b153765fc7d6e1e4c7513d79af169a0d45d341c6d9328",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel3-480.webp",
+          "sha256": "7b0a34c15ac68b0555f107b6d17c32b35ff4c26ab473569bf9e7b13eae54843e"
+        },
+        {
+          "path": "src/assets/images/caroussel3-960.webp",
+          "sha256": "53a025f78fc1b8a4dcd066053c17e551e5031baccdd23800b29f4662013c0822"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel4.JPG",
+      "sourceSha256": "0364772a30534faf9b692ecaaa2f4e4a7ca567646149aea5bcc78c2820e9acdd",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel4-480.webp",
+          "sha256": "82cbcf0bd1c410be466809acad75af5dfd0f4ac78f3460ce033312ce9ab00813"
+        },
+        {
+          "path": "src/assets/images/caroussel4-960.webp",
+          "sha256": "6cfc3ee0ffa7bee038e4281857486eadc523cec5afbe46a57f63b84f9f11c4a2"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel5.JPG",
+      "sourceSha256": "eaf3a22bf9560599c3e01a74df42a422449592c00d58f37563c4792d2c10951c",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel5-480.webp",
+          "sha256": "551e51236b51cdfc066c478b54213794b18f06aec0505b6a684a77904ed4e189"
+        },
+        {
+          "path": "src/assets/images/caroussel5-960.webp",
+          "sha256": "32caa86a44639e2d0606aeeb71582b0aba1120f4fe36b0b139cc819d35b6d2ce"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel6.JPG",
+      "sourceSha256": "e06c71c8c49042ba17aaf5d2b10e5263d2e75193f66307055ca23da1cc56d074",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel6-480.webp",
+          "sha256": "e2b749a90b686659bc74090e1fb2bb8ba067111eb27ea3db89202f83026a5f98"
+        },
+        {
+          "path": "src/assets/images/caroussel6-960.webp",
+          "sha256": "b3068f23d3e890243b6229e5b580e0d46fed5be50a4cd9d685220a96e72dd1a6"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel7.HEIC",
+      "sourceSha256": "3f4f44e9971a36ea19e5e76fc32326721c8268e0679943ac26bc499b78eee14a",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel7-480.webp",
+          "sha256": "8a0002d2d9191d50d19230e139c5bc9b934b7faf4141ca70a4146861701bfb0a"
+        },
+        {
+          "path": "src/assets/images/caroussel7-960.webp",
+          "sha256": "114ae35e837ad7d2cae3679d10035876c73be11ef10f1744e608b146e53da79f"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel8.HEIC",
+      "sourceSha256": "916eda66025f8e75b6993aef62fde3ebe2de5361db8e75229f39961dd856be36",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel8-480.webp",
+          "sha256": "5e91a60fa1e8dc2ec6521244a2466859c58030d85798276994240fd0c65afee4"
+        },
+        {
+          "path": "src/assets/images/caroussel8-960.webp",
+          "sha256": "246765bcccafd9d131f49cf841afd703f9f983921e4c08e18a01c190468d6427"
+        }
+      ]
+    },
+    {
+      "source": "Caroussel9.HEIC",
+      "sourceSha256": "78283de62b59060dd5d16d869b5362129b89a1b2b1d4ff00d847ba56f5a69300",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/caroussel9-480.webp",
+          "sha256": "f8d0bd7ec97069cd54ed01fbc73ce9cfb95d691ce1153d08e2492baff0b9054b"
+        },
+        {
+          "path": "src/assets/images/caroussel9-960.webp",
+          "sha256": "3485502ae90864a9a7708daa6de7cf0265462e73fc890b992d2e1ec20e412ee6"
+        }
+      ]
+    },
+    {
+      "source": "Hero-home.JPG",
+      "sourceSha256": "8f570953877115f3c5541daf6da7b84deab3e765f6c10fe0436e0f5365e75bbe",
+      "used": true,
+      "variants": [
+        {
+          "path": "src/assets/images/hero-home-1920.webp",
+          "sha256": "23ebd818eb2955b6b3408a16d42d2e55af69f794f7da79f7c8af560e31869ce5"
+        },
+        {
+          "path": "src/assets/images/hero-home-2404.webp",
+          "sha256": "7c478f31fee6c6a4eaf56cc96fd6cae1dee76b134d52839124eac3f1df5fe027"
+        },
+        {
+          "path": "src/assets/images/hero-home-960.webp",
+          "sha256": "811e99bb1b6bcdcb233e379957fb3727a5059bedb7d971ae77a3d515fdf5cbcf"
+        }
+      ]
+    }
+  ],
+  "svg": [
+    {
+      "source": "LogoLMD3G.svg",
+      "path": "src/assets/logo/LogoLMD3G.svg",
+      "sha256": "cd920794a0437d846cc1f410e9485337e77950d98e092e80c993558077d1ea52"
+    },
+    {
+      "source": "MapFrance.svg",
+      "path": "src/assets/logo/MapFrance.svg",
+      "sha256": "51f880b2cc37c6c663d10c40c27c66a696f9447170e18b63bcd90ba94438b4c5"
+    },
+    {
+      "source": "ReliIcon.svg",
+      "path": "src/assets/logo/ReliIcon.svg",
+      "sha256": "d997d652065f82a3f5ab7343de03db1ef1ced3a00fb3c8598605594c2fa5eb08"
+    }
+  ]
+}

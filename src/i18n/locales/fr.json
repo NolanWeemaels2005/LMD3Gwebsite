@@ -1,0 +1,240 @@
+{
+  "brand": "La Maison Des Trois Garçons",
+  "languages": {
+    "nl": "Nederlands",
+    "fr": "français",
+    "en": "English"
+  },
+  "social": {
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "rental": "Reis Verhuur",
+    "reli": "Reli"
+  },
+  "nav": {
+    "book": "Réserver",
+    "gallery": "Galerie",
+    "home": "Accueil",
+    "nearby": "Aux alentours",
+    "benefits": "Les atouts",
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "label": "Navigation principale",
+    "skip": "Aller au contenu",
+    "activities": "Activités",
+    "reserve": "Réserver",
+    "about": "À propos",
+    "pending": "Cette page est en préparation."
+  },
+  "hero": {
+    "title": "La Maison Des\nTrois Garçons",
+    "body": "La Maison Des Trois Garçons, une maison de vacances\npleine de charme à Carcès, au cœur de la Provence.\nSavourez le calme, la nature et la douceur du Sud.",
+    "alt": "La villa provençale aux volets bleus et sa piscine baignée de soleil"
+  },
+  "gallery": {
+    "title": "Une image vaut mille mots.",
+    "body": "Un petit aperçu de tout ce que\nLa Maison Des Trois Garçons vous réserve.",
+    "previous": "Image précédente",
+    "next": "Image suivante",
+    "label": "Photos de la maison de vacances",
+    "progress": "Progression de la galerie photo"
+  },
+  "location": {
+    "title": "Découvrez Carcès et le cœur de la Provence",
+    "subtitle": "Un havre de paix au cœur du sud de la France",
+    "body": "La Maison Des Trois Garçons se situe à Carcès, un charmant village provençal du Var. Depuis la maison, partez à la découverte de la nature, des vignobles, des marchés locaux et des villages de caractère de la Provence. Le point de départ idéal pour des vacances reposantes dans le sud de la France, avec de nombreuses visites et activités à proximité.",
+    "button": "Toutes les activités",
+    "map": "Carcès, dans le sud-est de la France, en Provence"
+  },
+  "reviews": {
+    "title": "Ils ont déjà goûté à la Provence.",
+    "rating": "{{count}} étoiles sur 5",
+    "pause": "Mettre les avis en pause",
+    "play": "Faire défiler les avis",
+    "karel": "Une magnifique maison dans un cadre paisible",
+    "danielle": "Nous avons passé un merveilleux séjour dans cette maison, avec une très belle piscine et un joli jardin.",
+    "justine": "De très belles vacances !",
+    "kellin": "Une réservation facile et un suivi soigné",
+    "sally": "Un délice !"
+  },
+  "cta": {
+    "title": "Prêts pour la Provence ?",
+    "subtitle": "Votre séjour à Carcès commence ici."
+  },
+  "footer": {
+    "pages": "Pages",
+    "links": "Liens utiles",
+    "language": "Choisissez votre langue",
+    "social": "Réseaux sociaux",
+    "legal": "Mentions légales",
+    "cookies": "Cookies",
+    "privacy": "Confidentialité"
+  },
+  "photos": {
+    "caroussel0": "Transats sur la terrasse au bord de la piscine",
+    "caroussel1": "Le jardin méditerranéen autour de la villa",
+    "caroussel2": "Un chemin paisible dans le jardin",
+    "caroussel3": "Le terrain de pétanque entre les arbres",
+    "caroussel4": "La piscine au coucher du soleil",
+    "caroussel5": "La table de jardin au bord de la piscine",
+    "caroussel6": "La cuisine d’été couverte avec ses poutres en bois",
+    "caroussel7": "Salle de bains avec douche à l’italienne et miroir rond",
+    "caroussel8": "Chambre avec un lit double et des touches de vert",
+    "caroussel9": "Une chambre lumineuse donnant sur le jardin",
+    "caroussel10": "La chambre d’enfants avec des lits superposés",
+    "caroussel11": "Chambre avec deux lits simples",
+    "caroussel12": "Le salon et ses poutres apparentes",
+    "caroussel13": "La salle de bains lumineuse avec deux miroirs ronds"
+  },
+  "activities": {
+    "heroTitle": "Vivez la Provence\nautour de Carcès",
+    "heroBody": "Villages provençaux pleins de charme, marchés locaux, restaurants, vignobles et nature préservée : découvrez les environs de Carcès et profitez pleinement de votre séjour au cœur de la Provence.",
+    "heroAlt": "Un village provençal au-delà des vignes",
+    "favoritesTitle": "Nos coups de cœur",
+    "favoritesBody": "Une sélection de lieux à ne pas manquer pendant votre séjour.",
+    "allTitle": "Découvrez les environs",
+    "allBody": "Du restaurant qui fait rêver à l’excursion de demain.",
+    "favorite": "Coup de cœur",
+    "route": "Itinéraire",
+    "more": "Plus de résultats",
+    "empty": "Aucun résultat pour cette combinaison.",
+    "reset": "Tout afficher",
+    "all": "Tout",
+    "location": "Village",
+    "allLocations": "Tous les villages",
+    "category": "Catégorie",
+    "imageUnavailable": "Image indisponible",
+    "hour": "h",
+    "minute": "min",
+    "categories": {
+      "eten-drinken": "Restaurants & cafés",
+      "dorpen-steden": "Villages & villes",
+      "natuur": "Nature",
+      "activiteiten": "Activités",
+      "markten-winkels": "Marchés & boutiques"
+    },
+    "labels": {
+      "eten-drinken": "Restaurants & cafés",
+      "dorpen-steden": "Village & culture",
+      "natuur": "Nature",
+      "activiteiten": "Activité",
+      "markten-winkels": "Marché & boutique"
+    }
+  },
+  "advantages": {
+    "hero": {
+      "title": "Tout pour un séjour\nen toute sérénité",
+      "description": "La Maison Des Trois Garçons vous offre tout le nécessaire pour des vacances confortables et inoubliables en Provence.",
+      "alt": "La maison de vacances provençale aux volets bleus et sa terrasse ensoleillée"
+    },
+    "section": {
+      "title": "Les atouts de La Maison Des Trois Garçons",
+      "subtitle": "Notre maison de vacances à Carcès réunit tout pour un séjour confortable et pour savourer la douceur de vivre en Provence."
+    },
+    "brochure": {
+      "title": "Envie de tout revoir tranquillement ?",
+      "subtitle": "Téléchargez la présentation complète des équipements de\nLa Maison Des Trois Garçons.",
+      "button": "Télécharger la brochure",
+      "accessibleLabel": "Télécharger la brochure de La Maison Des Trois Garçons"
+    },
+    "gallery": {
+      "label": "Photos des équipements",
+      "pool": {
+        "label": "Piscine et terrasse",
+        "alt": "La piscine et le salon de terrasse au coucher du soleil"
+      },
+      "bathroom": {
+        "label": "Salle de bains",
+        "alt": "Salle de bains avec douche à l’italienne et miroir rond éclairé"
+      },
+      "bedroom": {
+        "label": "Chambre",
+        "alt": "Chambre lumineuse avec lit double et touches de vert"
+      },
+      "petanque": {
+        "label": "Terrain de pétanque",
+        "alt": "Le terrain de pétanque au milieu des arbres du jardin"
+      },
+      "kitchen": {
+        "label": "Cuisine extérieure",
+        "alt": "La cuisine extérieure couverte avec ses poutres en bois"
+      }
+    },
+    "items": {
+      "pool": {
+        "title": "Piscine privée",
+        "description": "Profitez en toute tranquillité de la piscine privée de 8,5 m sur 4,5 m."
+      },
+      "bedrooms": {
+        "title": "4 chambres",
+        "description": "Des chambres confortables pour un séjour reposant."
+      },
+      "bathrooms": {
+        "title": "2 salles de bains",
+        "description": "Une avec baignoire, l’autre avec douche à l’italienne et toilettes."
+      },
+      "kitchen": {
+        "title": "Cuisine équipée + cuisine extérieure",
+        "description": "Tout le nécessaire pour préparer vos repas."
+      },
+      "wifi": {
+        "title": "Réseau WiFi",
+        "description": "Restez facilement connecté."
+      },
+      "airco": {
+        "title": "Climatisation",
+        "description": "Un intérieur agréable, même pendant les chaudes journées d’été."
+      },
+      "toilets": {
+        "title": "2 toilettes",
+        "description": "Des toilettes séparées et des toilettes dans une salle de bains."
+      },
+      "barbecue": {
+        "title": "Barbecue à gaz",
+        "description": "Savourez de délicieuses grillades à tout moment."
+      },
+      "petanque": {
+        "title": "Terrain de pétanque",
+        "description": "Un terrain et plusieurs jeux de boules sont à disposition pour passer une agréable soirée."
+      },
+      "quiet": {
+        "title": "Au calme",
+        "description": "Profitez d’un séjour paisible dans une impasse, sans vis-à-vis avec les voisins."
+      }
+    }
+  },
+  "reservation": {
+    "heroTitle": "Vos vacances commencent ici,\nà La Maison Des Trois Garçons.",
+    "heroBody": "Envie de soleil, de calme et de douceur de vivre ? Planifiez votre séjour à La Maison Des Trois Garçons à Carcès et profitez de vacances au cœur de la Provence.",
+    "heroAlt": "La terrasse avec table à manger, transats et piscine privée",
+    "title": "Réservez votre séjour",
+    "intro": "Vous pouvez nous contacter via le formulaire ci-dessous.\nNous vous répondrons au plus vite pour organiser vos vacances.\n\nLes arrivées et les départs ont lieu uniquement le dimanche. Les séjours sont proposés à partir d’une semaine, du dimanche au dimanche.",
+    "name": "Nom",
+    "contact": "E-mail ou numéro de téléphone",
+    "date": "Dates",
+    "message": "Message",
+    "send": "Envoyer",
+    "sending": "Envoi en cours…",
+    "nameError": "Indiquez votre nom (au moins 2 caractères).",
+    "contactError": "Indiquez une adresse e-mail ou un numéro de téléphone valide.",
+    "dateError": "Sélectionnez un séjour du dimanche au dimanche, d’au moins 7 jours.",
+    "submitError": "L’envoi a échoué. Veuillez réessayer.",
+    "successTitle": "Merci pour votre demande !",
+    "successBody": "Nous vous contacterons au plus vite pour confirmer les disponibilités.",
+    "newRequest": "Nouvelle demande",
+    "reviewsTitle": "Ils ont déjà séjourné chez nous.",
+    "reviewsSubtitle": "Découvrez leurs expériences à La Maison Des Trois Garçons.",
+    "arrival": "Arrivée",
+    "departure": "Départ",
+    "datePlaceholder": "Choisissez votre arrivée et votre départ",
+    "calendar": "Choisissez les dates de votre séjour",
+    "minimumDeparture": "Sélectionnez un dimanche pour votre départ, à partir du {{date}}.",
+    "chooseArrival": "Sélectionnez un dimanche pour votre arrivée. Séjour minimum : une semaine, du dimanche au dimanche.",
+    "nextMonth": "Mois suivant",
+    "previousMonth": "Mois précédent",
+    "calendarNavigation": "Navigation du calendrier",
+    "clearDates": "Effacer les dates",
+    "closeCalendar": "Fermer"
+  }
+}

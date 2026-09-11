@@ -1,0 +1,240 @@
+{
+  "brand": "La Maison Des Trois Garçons",
+  "languages": {
+    "nl": "Nederlands",
+    "fr": "français",
+    "en": "English"
+  },
+  "social": {
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "rental": "Reis Verhuur",
+    "reli": "Reli"
+  },
+  "nav": {
+    "book": "Reserveer nu",
+    "gallery": "Galerij",
+    "home": "Home",
+    "nearby": "In de buurt",
+    "benefits": "Pluspunten",
+    "open": "Menu openen",
+    "close": "Menu sluiten",
+    "label": "Hoofdnavigatie",
+    "skip": "Naar de inhoud",
+    "activities": "Activiteiten",
+    "reserve": "Reserveer",
+    "about": "Over ons",
+    "pending": "Deze pagina is in voorbereiding."
+  },
+  "hero": {
+    "title": "La Maison Des\nTrois Garçons",
+    "body": "La Maison Des Trois Garçons, een sfeervol\nvakantiehuis in Carcès, in het hart van de Provence.\nGeniet van rust, natuur en de charme van Zuid-Frankrijk.",
+    "alt": "De Provençaalse villa met blauwe luiken en het zonovergoten zwembad"
+  },
+  "gallery": {
+    "title": "Een beeld zegt meer dan 1000 woorden.",
+    "body": "Hier een klein proevertje van wat\nLa Maison Des Trois Garçons allemaal te bieden heeft.",
+    "previous": "Vorige afbeelding",
+    "next": "Volgende afbeelding",
+    "label": "Foto’s van het vakantiehuis",
+    "progress": "Voortgang fotogalerij"
+  },
+  "location": {
+    "title": "Ontdek Carcès en het hart van de Provence",
+    "subtitle": "Verscholen in het hart van Zuid-Frankrijk",
+    "body": "La Maison Des Trois Garçons ligt in Carcès, een charmant Provençaals dorp in de Var. Vanuit het vakantiehuis ontdek je eenvoudig de natuur, wijngaarden, lokale markten en karakteristieke dorpen van de Provence. De ideale uitvalsbasis voor een ontspannen vakantie in Zuid-Frankrijk, met tal van bezienswaardigheden en activiteiten in de buurt.",
+    "button": "Alle activiteiten",
+    "map": "Carcès, in het zuidoosten van Frankrijk, in de Provence"
+  },
+  "reviews": {
+    "title": "Zij proefden de Provence al.",
+    "rating": "{{count}} van 5 sterren",
+    "pause": "Beoordelingen pauzeren",
+    "play": "Beoordelingen afspelen",
+    "karel": "Prachtige woning in een rustige omgeving",
+    "danielle": "We hebben een heerlijk verblijf gehad in het huis met een heel fijn zwembad en mooie tuin.",
+    "justine": "Leuke vakantie gehad!",
+    "kellin": "Vlotte boeking en keurig opgevolgd",
+    "sally": "Heerlijk!"
+  },
+  "cta": {
+    "title": "Klaar voor de Provence?",
+    "subtitle": "Jouw verblijf in Carcès begint hier."
+  },
+  "footer": {
+    "pages": "Pagina’s",
+    "links": "Interessante links",
+    "language": "Kies je taal",
+    "social": "Sociale media",
+    "legal": "Legal",
+    "cookies": "Cookies",
+    "privacy": "Privacy"
+  },
+  "photos": {
+    "caroussel0": "Ligstoelen op het terras aan het zwembad",
+    "caroussel1": "De mediterrane tuin naast de villa",
+    "caroussel2": "Een rustig pad door de tuin",
+    "caroussel3": "Petanquebaan tussen de bomen",
+    "caroussel4": "Het zwembad bij zonsondergang",
+    "caroussel5": "De tuintafel naast het zwembad",
+    "caroussel6": "De overdekte zomerkeuken met houten balken",
+    "caroussel7": "Badkamer met inloopdouche en ronde spiegel",
+    "caroussel8": "Slaapkamer met een tweepersoonsbed en groene accenten",
+    "caroussel9": "Een lichte slaapkamer met zicht op de tuin",
+    "caroussel10": "De kinderkamer met stapelbed",
+    "caroussel11": "Slaapkamer met twee eenpersoonsbedden",
+    "caroussel12": "De woonkamer met zithoek en houten balken",
+    "caroussel13": "De lichte badkamer met dubbele ronde spiegels"
+  },
+  "activities": {
+    "heroTitle": "Beleef de Provence\nrondom Carcès",
+    "heroBody": "Van sfeervolle Provençaalse dorpen en lokale markten tot restaurants, wijngaarden en prachtige natuur. Ontdek wat er te beleven valt rond Carcès en haal alles uit je verblijf in het hart van de Provence.",
+    "heroAlt": "Een Provençaals dorp achter de wijngaarden",
+    "favoritesTitle": "Onze favorieten",
+    "favoritesBody": "Een selectie van plekken die je niet mag missen tijdens je verblijf.",
+    "allTitle": "Ontdek alles in de buurt",
+    "allBody": "Van een restaurant om van te dromen tot een uitstap voor morgen.",
+    "favorite": "Favoriet",
+    "route": "Route",
+    "more": "Meer resultaten",
+    "empty": "Geen resultaten gevonden voor deze combinatie.",
+    "reset": "Toon alles",
+    "all": "Alles",
+    "location": "Dorp",
+    "allLocations": "Alle dorpen",
+    "category": "Categorie",
+    "imageUnavailable": "Afbeelding niet beschikbaar",
+    "hour": "u",
+    "minute": "min",
+    "categories": {
+      "eten-drinken": "Eten & drinken",
+      "dorpen-steden": "Dorpen & steden",
+      "natuur": "Natuur",
+      "activiteiten": "Activiteiten",
+      "markten-winkels": "Markten & winkels"
+    },
+    "labels": {
+      "eten-drinken": "Eten & drinken",
+      "dorpen-steden": "Dorp & cultuur",
+      "natuur": "Natuur",
+      "activiteiten": "Activiteit",
+      "markten-winkels": "Markt & winkel"
+    }
+  },
+  "advantages": {
+    "hero": {
+      "title": "Alles voor een\nzorgeloos verblijf",
+      "description": "La Maison Des Trois Garçons biedt alles wat je nodig hebt\nvoor een comfortabele en onvergetelijke vakantie in de\nProvence.",
+      "alt": "De Provençaalse vakantiewoning met blauwe luiken en een zonnig terras"
+    },
+    "section": {
+      "title": "De pluspunten van La Maison Des Trois Garçons",
+      "subtitle": "In ons vakantiehuis in Carcès is alles aanwezig voor een comfortabel verblijf en het goede leven in de Provence."
+    },
+    "brochure": {
+      "title": "Alles nog eens rustig bekijken?",
+      "subtitle": "Download het volledige overzicht van alle faciliteiten van\nLa Maison Des Trois Garçons.",
+      "button": "Download de brochure",
+      "accessibleLabel": "Download de brochure van La Maison Des Trois Garçons"
+    },
+    "gallery": {
+      "label": "Foto’s van de faciliteiten",
+      "pool": {
+        "label": "Zwembad en terras",
+        "alt": "Het zwembad en de loungehoek op het terras bij zonsondergang"
+      },
+      "bathroom": {
+        "label": "Badkamer",
+        "alt": "Badkamer met inloopdouche en verlichte ronde spiegel"
+      },
+      "bedroom": {
+        "label": "Slaapkamer",
+        "alt": "Lichte slaapkamer met tweepersoonsbed en groene accenten"
+      },
+      "petanque": {
+        "label": "Petanque veld",
+        "alt": "Het petanqueveld tussen de bomen in de tuin"
+      },
+      "kitchen": {
+        "label": "Buitenkeuken",
+        "alt": "De overdekte buitenkeuken met houten balken"
+      }
+    },
+    "items": {
+      "pool": {
+        "title": "Privézwembad",
+        "description": "Geniet in alle rust van het privézwembad.\n8,5 m op 4,5 m."
+      },
+      "bedrooms": {
+        "title": "4 slaapkamers",
+        "description": "Comfortabele kamers voor een ontspannen verblijf."
+      },
+      "bathrooms": {
+        "title": "2 badkamers",
+        "description": "Eén met bad en de andere met inloopdouche en toilet."
+      },
+      "kitchen": {
+        "title": "Volledig uitgeruste keuken + buitenkeuken",
+        "description": "Alles wat je nodig hebt om zelf te koken."
+      },
+      "wifi": {
+        "title": "WiFi netwerk",
+        "description": "Blijf eenvoudig verbonden."
+      },
+      "airco": {
+        "title": "Airconditioning",
+        "description": "Aangenaam binnenklimaat, ook op warme zomerdagen."
+      },
+      "toilets": {
+        "title": "2 toiletten",
+        "description": "Eén apart toilet en één in een badkamer."
+      },
+      "barbecue": {
+        "title": "Gasbarbecue",
+        "description": "Altijd mogelijkheid voor een heerlijk stukje vlees op de barbecue."
+      },
+      "petanque": {
+        "title": "Petanque veld",
+        "description": "Er is een petanqueveld en er zijn verschillende ballen aanwezig voor een leuke avondactiviteit."
+      },
+      "quiet": {
+        "title": "Rustige ligging",
+        "description": "Geniet van een rustig verblijf in een doodlopende straat zonder inkijk van de buren."
+      }
+    }
+  },
+  "reservation": {
+    "heroTitle": "Jouw vakantie begint hier,\nin La Maison Des Trois Garçons.",
+    "heroBody": "Klaar voor zon, rust en het goede leven? Plan je verblijf bij\nLa Maison Des Trois Garçons in Carcès en geniet van een vakantie\nin het hart van de Provence.",
+    "heroAlt": "Het terras met eettafel, ligstoelen en privézwembad",
+    "title": "Reserveer nu",
+    "intro": "Je kan ons altijd contacteren via onderstaand contactformulier.\nWe helpen je zo snel mogelijk verder met het vastleggen van jouw vakantie.\n\nAankomst en vertrek zijn uitsluitend mogelijk op zondag. Je boekt vanaf één week, van zondag tot zondag.",
+    "name": "Naam",
+    "contact": "E-mail of telefoonnummer",
+    "date": "Data",
+    "message": "Bericht",
+    "send": "Verstuur",
+    "sending": "Versturen…",
+    "nameError": "Vul je naam in (minstens 2 tekens).",
+    "contactError": "Vul een geldig e-mailadres of telefoonnummer in.",
+    "dateError": "Selecteer een verblijf van zondag tot zondag, van minstens 7 dagen.",
+    "submitError": "Er ging iets mis bij het versturen. Probeer het opnieuw.",
+    "successTitle": "Bedankt voor je aanvraag!",
+    "successBody": "Wij nemen zo snel mogelijk contact met je op om de beschikbaarheid te bevestigen.",
+    "newRequest": "Nieuwe aanvraag",
+    "reviewsTitle": "Verschillende mensen gingen jou al voor.",
+    "reviewsSubtitle": "Bekijk hier hun ervaringen in La Maison Des Trois Garçons.",
+    "arrival": "Aankomst",
+    "departure": "Vertrek",
+    "datePlaceholder": "Kies aankomst en vertrek",
+    "calendar": "Kies je verblijfsdata",
+    "minimumDeparture": "Selecteer een zondag als vertrekdatum, vanaf {{date}}.",
+    "chooseArrival": "Selecteer een zondag als aankomstdatum. Je verblijft minimaal één week, van zondag tot zondag.",
+    "nextMonth": "Volgende maand",
+    "previousMonth": "Vorige maand",
+    "calendarNavigation": "Kalendernavigatie",
+    "clearDates": "Data wissen",
+    "closeCalendar": "Sluiten"
+  }
+}
