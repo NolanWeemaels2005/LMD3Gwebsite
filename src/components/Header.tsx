@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
 import { Logo } from './Shared';
 import { NavigationMenu } from './NavigationMenu';
-import { navigate, useRoute } from '../hooks/useRoute';
+import { siteUrl, navigate, useRoute } from '../hooks/useRoute';
 export function Header() {
   const { t, i18n } = useTranslation();
   const route = useRoute();
@@ -48,7 +48,7 @@ export function Header() {
   return <header className="header">
     <Logo />
     {createPortal(<div className={`header-actions shared-navigation-controls${open ? ' shared-navigation-controls--open' : ''}`}>
-      <a href="/reserveren" className="button button--purple" onClick={event => { event.preventDefault(); if (open) controller.current?.('/reserveren'); else navigate('/reserveren'); }}>{t('nav.book')}</a>
+      <a href={siteUrl('/reserveren')} className="button button--purple" onClick={event => { event.preventDefault(); if (open) controller.current?.('/reserveren'); else navigate('/reserveren'); }}>{t('nav.book')}</a>
       <button ref={toggle} className={`menu-toggle${lightBackground ? ' menu-toggle--light-background' : ''}`} aria-label={t(open ? 'nav.close' : 'nav.open')} aria-expanded={open} aria-controls="main-menu" onClick={() => { if (open) controller.current?.(); else setOpen(true); }}><span/><span/><span/></button>
     </div>, document.body)}
     {open && <NavigationMenu trigger={toggle} controller={controller} onClosed={closed} />}

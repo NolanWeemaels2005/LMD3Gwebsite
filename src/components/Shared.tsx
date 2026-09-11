@@ -1,5 +1,5 @@
 import type { AnchorHTMLAttributes } from 'react';
-import { navigate } from '../hooks/useRoute';
+import { siteUrl, navigate } from '../hooks/useRoute';
 import { useTranslation } from 'react-i18next';
 import logo from '../assets/logo/LogoLMD3G.svg?no-inline';
 import reli from '../assets/logo/ReliIcon.svg?no-inline';
@@ -11,11 +11,11 @@ export function PlaceholderLink({ children, ...props }: AnchorHTMLAttributes<HTM
 }
 export function BookingButton() {
   const { t } = useTranslation();
-  return <a href="/reserveren" className="button button--purple" onClick={event => { event.preventDefault(); navigate('/reserveren'); }}>{t('nav.book')}</a>;
+  return <a href={siteUrl('/reserveren')} className="button button--purple" onClick={event => { event.preventDefault(); navigate('/reserveren'); }}>{t('nav.book')}</a>;
 }
 export function Logo() {
   const { t } = useTranslation();
-  return <a className="logo" href="/" aria-label={t('nav.home')}><img src={logo} alt={t('brand')} width="1746.42" height="790.69" /></a>;
+  return <a className="logo" href={siteUrl('/')} aria-label={t('nav.home')}><img src={logo} alt={t('brand')} width="1746.42" height="790.69" /></a>;
 }
 export function Arrow({ direction }: { direction: 'left' | 'right' }) {
   return <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d={direction === 'left' ? 'M19 12H5m7-7-7 7 7 7' : 'M5 12h14m-7-7 7 7-7 7'} stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>;

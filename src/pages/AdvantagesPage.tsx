@@ -3,14 +3,14 @@ import { Hero } from '../components/HeroSection';
 import { BookingCTASection } from '../components/BookingCTASection';
 import { advantages, facilities, brochureUrl } from '../data/advantages';
 import { photo, photoSet } from '../data/images';
-import { navigate } from '../hooks/useRoute';
+import { siteUrl, navigate } from '../hooks/useRoute';
 import '../styles/advantages.css';
 
 export function AdvantagesPage() {
  const {t} = useTranslation();
  return <>
   <Hero className="advantages-hero" image={photo('bottomp5',1920)} srcSet={`${photo('bottomp5',960)} 960w, ${photo('bottomp5',1920)} 1920w, ${photo('bottomp5',2304)} 2304w`} title={t('advantages.hero.title')} body={t('advantages.hero.description')} alt={t('advantages.hero.alt')}>
-   {([['/reserveren','nav.book','purple'],['/activiteiten','nav.activities','green']] as const).map(([path,key,color]) => <a key={path} href={path} className={`button button--${color}`} onClick={event => {event.preventDefault();navigate(path);}}>{t(key)}</a>)}
+   {([['/reserveren','nav.book','purple'],['/activiteiten','nav.activities','green']] as const).map(([path,key,color]) => <a key={path} href={siteUrl(path)} className={`button button--${color}`} onClick={event => {event.preventDefault();navigate(path);}}>{t(key)}</a>)}
   </Hero>
   <section className="advantages-section section-inset" aria-labelledby="advantages-title">
    <h2 id="advantages-title">{t('advantages.section.title')}</h2><p className="advantages-intro">{t('advantages.section.subtitle')}</p>

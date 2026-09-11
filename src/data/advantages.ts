@@ -17,4 +17,4 @@ export const facilities = [
  {key:'pool',photo:'caroussel4'}, {key:'bathroom',photo:'caroussel7'},
  {key:'bedroom',photo:'caroussel8'}, {key:'petanque',photo:'caroussel3'}, {key:'kitchen',photo:'caroussel6'},
 ] as const;
-export const brochureUrl = '/downloads/la-maison-des-trois-garcons-brochure.pdf';
+export const brochureUrl = import.meta.env.BASE_URL + 'downloads/la-maison-des-trois-garcons-brochure.pdf';

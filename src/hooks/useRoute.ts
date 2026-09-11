@@ -10,10 +10,17 @@ const subscribe = (notify: () => void) => {
   window.addEventListener('popstate', notify);
   return () => window.removeEventListener('popstate', notify);
 };
-export const useRoute = () => useSyncExternalStore(subscribe, () => window.location.pathname);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+export const siteUrl = (path: string) => `${base}/${path.replace(/^\//, '')}`;
+export function currentRoute() {
+  const pathname = window.location.pathname;
+  const route = pathname === base ? '/' : pathname.startsWith(`${base}/`) ? pathname.slice(base.length) : pathname;
+  return route.replace(/\/+$/, '') || '/';
+}
+export const useRoute = () => useSyncExternalStore(subscribe, currentRoute);
 export function navigate(path: string) {
-  if (path === window.location.pathname) return;
-  window.history.pushState(null, '', path);
+  if (path === currentRoute()) return;
+  window.history.pushState(null, '', siteUrl(path));
   window.dispatchEvent(new PopStateEvent('popstate'));
   window.scrollTo({ top: 0, behavior: 'instant' });
 }
