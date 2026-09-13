@@ -264,7 +264,7 @@
     "items": {
       "pool": {
         "title": "Privézwembad",
-        "description": "Geniet in alle rust van het privézwembad.\n8,5 m op 4,5 m."
+        "description": "Geniet in alle rust van het privézwembad.\n8,5 m op 4,5 m. Het zwembad kan optioneel verwarmd worden."
       },
       "bedrooms": {
         "title": "4 slaapkamers",
@@ -272,7 +272,7 @@
       },
       "bathrooms": {
         "title": "2 badkamers",
-        "description": "Eén met bad en de andere met inloopdouche en toilet."
+        "description": "Twee badkamers beide met inloopdouche"
       },
       "kitchen": {
         "title": "Volledig uitgeruste keuken + buitenkeuken",
@@ -300,7 +300,7 @@
       },
       "quiet": {
         "title": "Rustige ligging",
-        "description": "Geniet van een rustig verblijf in een doodlopende straat zonder inkijk van de buren."
+        "description": "Geniet van een rustig verblijf op een privédomein van 3.500 m², in een doodlopende straat zonder inkijk van de buren."
       }
     }
   },
@@ -339,7 +339,7 @@
   },
   "about": {
     "hero": {
-      "title": "Onze geschiedenis,\njullie verhaal.",
+      "title": "Leven als God in Frankrijk",
       "description": "La Maison Des Trois Garçons is het resultaat van een droom, veel werk en een liefde voor de Provence. Ontdek wie wij zijn, hoe het huis is geëvolueerd en wat deze plek voor ons zo bijzonder maakt.",
       "alt": "Het terras en privézwembad bij avondlicht met feestverlichting"
     },

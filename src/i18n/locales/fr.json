@@ -264,7 +264,7 @@
     "items": {
       "pool": {
         "title": "Piscine privée",
-        "description": "Profitez en toute tranquillité de la piscine privée de 8,5 m sur 4,5 m."
+        "description": "Profitez en toute tranquillité de la piscine privée de 8,5 m sur 4,5 m. Le chauffage de la piscine est disponible en option."
       },
       "bedrooms": {
         "title": "4 chambres",
@@ -272,7 +272,7 @@
       },
       "bathrooms": {
         "title": "2 salles de bains",
-        "description": "Une avec baignoire, l’autre avec douche à l’italienne et toilettes."
+        "description": "Deux salles de bains, toutes deux avec douche à l’italienne"
       },
       "kitchen": {
         "title": "Cuisine équipée + cuisine extérieure",
@@ -300,7 +300,7 @@
       },
       "quiet": {
         "title": "Au calme",
-        "description": "Profitez d’un séjour paisible dans une impasse, sans vis-à-vis avec les voisins."
+        "description": "Profitez d’un séjour paisible sur un domaine privé de 3 500 m², dans une impasse, sans vis-à-vis avec les voisins."
       }
     }
   },
@@ -339,7 +339,7 @@
   },
   "about": {
     "hero": {
-      "title": "Notre histoire,\nvotre séjour.",
+      "title": "La belle vie en France",
       "description": "La Maison Des Trois Garçons est le fruit d’un rêve, de beaucoup de travail et d’un amour pour la Provence. Découvrez qui nous sommes, comment la maison a évolué et ce qui rend ce lieu si particulier à nos yeux.",
       "alt": "La terrasse et la piscine privée au crépuscule, sous les guirlandes lumineuses"
     },

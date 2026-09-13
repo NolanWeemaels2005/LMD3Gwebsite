@@ -264,7 +264,7 @@
     "items": {
       "pool": {
         "title": "Private pool",
-        "description": "Enjoy the peace of your own private pool, measuring 8.5 m by 4.5 m."
+        "description": "Enjoy the peace of your own private pool, measuring 8.5 m by 4.5 m. Pool heating is available as an option."
       },
       "bedrooms": {
         "title": "4 bedrooms",
@@ -272,7 +272,7 @@
       },
       "bathrooms": {
         "title": "2 bathrooms",
-        "description": "One with a bath, the other with a walk-in shower and toilet."
+        "description": "Two bathrooms, both with walk-in showers"
       },
       "kitchen": {
         "title": "Fully equipped kitchen + outdoor kitchen",
@@ -300,7 +300,7 @@
       },
       "quiet": {
         "title": "Peaceful location",
-        "description": "Enjoy a quiet stay in a cul-de-sac, without being overlooked by neighbours."
+        "description": "Enjoy a quiet stay on a private estate of 3,500 m², in a cul-de-sac without being overlooked by neighbours."
       }
     }
   },
@@ -339,7 +339,7 @@
   },
   "about": {
     "hero": {
-      "title": "Our history,\nyour story.",
+      "title": "Living the good life in France",
       "description": "La Maison Des Trois Garçons is the result of a dream, hard work and a love of Provence. Discover who we are, how the house has evolved and what makes this place so special to us.",
       "alt": "The terrace and private pool at dusk beneath string lights"
     },
