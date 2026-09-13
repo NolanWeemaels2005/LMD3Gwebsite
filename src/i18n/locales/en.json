@@ -9,7 +9,7 @@
     "whatsapp": "Whatsapp",
     "instagram": "Instagram",
     "facebook": "Facebook",
-    "rental": "Reis Verhuur",
+    "rental": "RELI",
     "reli": "Reli"
   },
   "nav": {
@@ -69,7 +69,9 @@
     "social": "Social media",
     "legal": "Legal",
     "cookies": "Cookies",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "socialComingSoon": "Our {{platform}} page isn’t ready yet, but it’s coming soon!",
+    "closeNotice": "Close message"
   },
   "photos": {
     "caroussel0": "Sun loungers on the poolside terrace",
@@ -120,6 +122,104 @@
       "natuur": "Nature",
       "activiteiten": "Activity",
       "markten-winkels": "Market & shop"
+    },
+    "items": {
+      "la-table-des-epiciers": {
+        "name": "La table des epiciers",
+        "description": "Enjoy a relaxed evening with Luc, Belgian food and a refreshing Belgian beer."
+      },
+      "bistrot-le-ptit-bouchon": {
+        "name": "Bistrot le p’tit bouchon",
+        "description": "Fresh ingredients, friendly service and a beautiful setting overlooking the vineyard."
+      },
+      "le-clos-des-vignes": {
+        "name": "Le Clos des Vignes",
+        "description": "Seasonal dishes on a secluded estate among the vineyards."
+      },
+      "chateau-mentone": {
+        "name": "Chateau Mentone",
+        "description": "Choose fresh, local dishes from the menu, accompanied by a good glass of wine from the estate."
+      },
+      "vigna": {
+        "name": "Vigna",
+        "description": "Enjoy a delicious three-course menu with three choices for each course, views over the beautiful estate and a lovely glass of wine."
+      },
+      "la-table-de-pol": {
+        "name": "La table de Pol",
+        "description": "Elegant dining in the centre of Lorgues."
+      },
+      "le-bout-du-monde": {
+        "name": "Le bout du monde",
+        "description": "A traditional restaurant specialising in veal kidneys, sweetbreads, andouillette sausage, fresh fish and scallops. No vegetarian or vegan options."
+      },
+      "cotignac": {
+        "name": "Cotignac",
+        "description": "A picturesque village full of character, officially recognised as one of the most beautiful villages in France. It sits at the foot of a cliff with historic cave dwellings."
+      },
+      "tourtour": {
+        "name": "Tourtour",
+        "description": "A medieval hilltop village at an altitude of 635 metres, offering beautiful views of the region. Also known as the “village in the sky of Provence”."
+      },
+      "villecroze": {
+        "name": "Villecroze",
+        "description": "A charming medieval village known for its ancient caves, historic centre and beautiful park with waterfalls."
+      },
+      "port-grimaud": {
+        "name": "Port Grimaud",
+        "description": "Known worldwide as the Venice of Provence. A ferry provides easy access to Saint-Tropez."
+      },
+      "sanary-sur-mer": {
+        "name": "Sanary-sur-Mer",
+        "description": "An authentic seaside town and fishing harbour, known for its traditional fishing boats and colourful façades. There is an evening market every night in high season."
+      },
+      "chutes-du-caramy": {
+        "name": "Chutes du Caramy",
+        "description": "A beautiful double waterfall hidden in a lush, wooded gorge. It cannot be reached by car; the Lac de Carcès car park is the best place to park."
+      },
+      "cascade-de-sillans": {
+        "name": "Cascade de Sillans",
+        "description": "One of the most impressive waterfalls in the Var. The walk from the car park takes about twenty minutes. Parking charges apply in summer."
+      },
+      "le-lac-de-quinson": {
+        "name": "Le lac de Quinson",
+        "description": "Walk beside the emerald-green water, across wooden walkways, along stone steps and through tunnels carved into the rock."
+      },
+      "sentier-du-littoral-van-saint-tropez": {
+        "name": "Saint-Tropez coastal path",
+        "description": "This impressive coastal trail follows rugged limestone cliffs, hidden turquoise coves and white sandy beaches on the Saint-Tropez peninsula. It reveals the region’s wild side, far from the bustle of the marina. A 12 km walk."
+      },
+      "domaine-fontainebleau-en-provence": {
+        "name": "Domaine Fontainebleau en Provence",
+        "description": "A beautiful, prestigious organic wine estate covering 170 hectares. Enjoy a wine tasting or explore the estate in a golf buggy."
+      },
+      "prestige-karting-le-luc": {
+        "name": "Prestige Karting Le Luc",
+        "description": "Want to feel like Max Verstappen or find out who is the fastest in the family? Head to Prestige Karting in Le Luc. Options are also available for children under 12."
+      },
+      "verdon-electronautic": {
+        "name": "Verdon Electronautic",
+        "description": "A fleet of more than thirty electric boats for a trip around the lake."
+      },
+      "mountainbike-afdaling-vtt-dh-enduro": {
+        "name": "Downhill mountain biking (DH / Enduro)",
+        "description": "This tucked-away bike park in the hills directly above Lac de Carcès offers technical downhill tracks with challenging jumps, drops, tight switchbacks and banked corners. For experienced mountain bikers only. Free parking is available at the Lac de Carcès car park."
+      },
+      "wekelijkse-markt-lorgues": {
+        "name": "Weekly market in Lorgues",
+        "description": "A popular weekly tourist market where Belgian and Dutch visitors will feel right at home. Every Tuesday."
+      },
+      "wekelijkse-markt-cotignac": {
+        "name": "Weekly market in Cotignac",
+        "description": "An authentic, welcoming Provençal market held every Tuesday. Arrive early in high season."
+      },
+      "wekelijkse-markt-salernes": {
+        "name": "Weekly market in Salernes",
+        "description": "A traditional Provençal market in the shade of the plane trees. Wednesday and Sunday mornings."
+      },
+      "wekelijkse-markt-carces": {
+        "name": "Weekly market in Carcès",
+        "description": "A small weekly market in the centre of Carcès. Saturday mornings."
+      }
     }
   },
   "advantages": {
@@ -269,5 +369,136 @@
       "label": "Compare {{label}} before and after renovation",
       "value": "{{value}}% of the before renovation image visible"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Holiday home with private pool in Carcès | La Maison Des Trois Garçons",
+      "description": "Enjoy La Maison Des Trois Garçons in Carcès, Provence: a holiday home with a private pool, four bedrooms and everything you need for a relaxing stay."
+    },
+    "about": {
+      "title": "About us — our story in Provence | La Maison Des Trois Garçons",
+      "description": "Discover the story of La Maison Des Trois Garçons, the renovation of our holiday home in Carcès and the family behind its name."
+    },
+    "activities": {
+      "title": "Activities around Carcès in Provence | La Maison Des Trois Garçons",
+      "description": "Explore villages, restaurants, vineyards and nature around Carcès. Discover our favourites, filter local outings and plan your routes in Provence."
+    },
+    "advantages": {
+      "title": "Our highlights — pool, comfort and facilities | La Maison Des Trois Garçons",
+      "description": "Discover the private pool, four bedrooms, two bathrooms, outdoor kitchen and all the facilities at La Maison Des Trois Garçons in Carcès."
+    },
+    "reservation": {
+      "title": "Book your stay in Carcès | La Maison Des Trois Garçons",
+      "description": "Enquire about your stay at La Maison Des Trois Garçons in Provence. Sunday arrivals and departures, with stays from one week. Read our guests’ experiences."
+    },
+    "imageAlt": "La Maison Des Trois Garçons holiday home and private pool in Carcès",
+    "legal": {
+      "title": "Legal information | La Maison Des Trois Garçons",
+      "description": "Legal information for SenK: operator Karen De Coster, contact details and use of the La Maison Des Trois Garçons website."
+    },
+    "privacy": {
+      "title": "Privacy policy | La Maison Des Trois Garçons",
+      "description": "Learn how SenK processes stay enquiries, which providers receive data, retention periods and your privacy rights."
+    },
+    "cookies": {
+      "title": "Cookies and local storage | La Maison Des Trois Garçons",
+      "description": "Information about the locally saved language preference and external services on the La Maison Des Trois Garçons website."
+    }
+  },
+  "legalPages": {
+    "contact": "Operator and contact",
+    "enterprise": "VAT number",
+    "updated": "Last updated: {{date}}",
+    "providerLinks": "Service providers and supervisory authorities",
+    "safeguards": "Security and transfer safeguards",
+    "authorities": "European data protection authorities",
+    "legal": {
+      "title": "Legal information",
+      "sections": [
+        {
+          "title": "About this website",
+          "body": "This website is published by SenK (VAT BE0825893137), established at Hazendries 19, 1570 Tollembeek, Belgium. It presents the La Maison Des Trois Garçons holiday home in Carcès, France. Karen De Coster manages the website and stay enquiries on behalf of SenK. Please use the email address above for enquiries."
+        },
+        {
+          "title": "Enquiring about a stay",
+          "body": "The form is used to discuss a stay and enquire about availability. Submitting it or receiving an automatic acknowledgement does not constitute a confirmed booking. Availability, price and applicable stay terms are communicated separately before a booking is agreed. This website does not process online payments. A holiday-accommodation contract for specified dates does not carry the statutory fourteen-day withdrawal right. This applies to a concluded contract, not to sending a non-binding enquiry. Any cancellation options are explained in the separate booking terms; other statutory rights remain unaffected."
+        },
+        {
+          "title": "Text, photographs and other rights",
+          "body": "The photographs of the house and family were supplied by the operator as her own images. Text, photographs, logos and other works may be protected by copyright or other rights. Reuse requires the rights holder’s permission unless a statutory exception applies. Third-party brands, logos, fonts and icons remain subject to their respective rights and licences. Activity cards display photographs from external sources. Rights remain with the respective rights holders; this notice does not constitute a usage licence. For questions about image rights, please contact the email address above."
+        },
+        {
+          "title": "Activity information and external links",
+          "body": "Activities are presented as inspiration for your stay. Offers, prices, opening hours and access may change; check current details with the provider. External websites, including Google Maps and RELI, are independently managed and have their own terms and privacy policies. This website does not guarantee the availability of their services. Visitors’ statutory rights remain unaffected."
+        },
+        {
+          "title": "Hosting and reporting concerns",
+          "body": "The website is hosted through GitHub Pages, a service of GitHub, Inc. To report an error or raise a concern about content rights, contact Karen De Coster at the email address above and identify the relevant page."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "title": "Who is responsible?",
+          "body": "SenK, Hazendries 19, 1570 Tollembeek, Belgium (VAT BE0825893137), is responsible for processing personal data through this website. Karen De Coster is your contact at decosterkaren@icloud.com."
+        },
+        {
+          "title": "What data and why?",
+          "body": "The enquiry form asks for your name, email address or telephone number, arrival and departure dates and an optional message. The contact type and stay length are also submitted. These details are used to reply, discuss availability and prepare a booking. Your name, contact details and dates are needed to handle the enquiry; a message is optional. Do not send identity documents, payment-card details, medical information or other sensitive data through this form."
+        },
+        {
+          "title": "Legal basis and use",
+          "body": "Your enquiry is handled at your request with a view to a possible contract (Article 6(1)(b) GDPR). Technical data needed to deliver the site and prevent abuse is processed for the legitimate interest of providing a secure, working service (Article 6(1)(f)). The operator does not use enquiry data for newsletters, advertising, profiling or automated decision-making."
+        },
+        {
+          "title": "Who receives data?",
+          "body": "Your enquiry is submitted through Formspree and handled by Karen De Coster. Formspree processes the form details and technical data needed for delivery and security, such as an IP address and browser information. Correspondence with the listed iCloud email address is processed through Apple’s email service. GitHub Pages receives technical data needed to serve the website, such as your IP address, requested page and browser information. The operator does not sell your data. Following an external link takes you to a provider whose own privacy policy applies. Loading external activity photographs connects your browser directly to the image host, which receives technical data such as your IP address and browser information. The site does not send the referring page. The image hosts are listed below."
+        },
+        {
+          "title": "Transfers outside the European Economic Area",
+          "body": "Service providers may process data outside the European Economic Area. Formspree states that it processes data in the United States and uses standard contractual clauses for transfers as a processor. Formspree, GitHub and Apple privacy and security information is linked below. You can ask Karen De Coster about the safeguards applicable to transfers of your data."
+        },
+        {
+          "title": "Retention",
+          "body": "The operator keeps enquiry data to handle the request, until the booking is confirmed. Data subsequently needed to carry out the agreed stay or meet legal obligations forms part of the booking administration. Enquiries that do not result in a booking are deleted no later than three months after the last contact. Deletion covers both the form inbox and related email correspondence; service providers’ technical logs are subject to their own retention policies."
+        },
+        {
+          "title": "Your rights",
+          "body": "You can request access, correction, deletion or restriction of the processing of your data. Where the GDPR provides for it, you have a right to portability and may object to processing based on legitimate interests. Send your request to decosterkaren@icloud.com. Additional identity information will only be requested where necessary. A response is normally provided within one month; you will be informed of any permitted extension. You may lodge a complaint with a competent data protection authority, for example in the country where you live or work."
+        },
+        {
+          "title": "Local storage and changes",
+          "body": "The site stores only your manually selected language as a local browser preference. See Cookies and local storage for details. This policy is updated when relevant changes occur; the date above shows its latest revision."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies and local storage",
+      "sections": [
+        {
+          "title": "No first-party advertising or analytics cookies",
+          "body": "The website code does not set cookies and contains no advertising pixels, visitor analytics or embedded social-media trackers. Fonts and the site’s own photographs are served with the website. Activity photographs load directly from external image hosts. Their requests and any cookies are subject to those hosts’ policies and your browser settings. The fact that the website code does not set cookies is therefore not a guarantee that external services never use them."
+        },
+        {
+          "title": "Your language preference",
+          "body": "When you choose Dutch, French or English, the value nl, fr or en is saved under the siteLanguage key in localStorage. This is local browser storage, not a cookie. It remembers your chosen language for later visits and is not transmitted by the site as tracking data. It currently has no automatic expiry: it remains until you change it or clear the website data in your browser."
+        },
+        {
+          "title": "Removing or blocking storage",
+          "body": "You can remove your language preference by clearing this site’s data in your browser settings. If local storage is blocked, the website still works, but your choice will not be remembered for future visits. Without a saved preference, the site uses a supported browser language or Dutch."
+        },
+        {
+          "title": "Forms and external services",
+          "body": "An enquiry is only sent when you click Send. The form service and hosting provider process technical connection data as described in the privacy policy. This is different from a cookie. External links open services with their own cookie and privacy policies. If non-essential cookies or trackers are added later, an appropriate consent choice must be provided before use and this information must be updated."
+        }
+      ]
+    },
+    "notice": "Your details are used to handle your stay enquiry and prepare a booking. Please do not send sensitive data.",
+    "privacyLink": "Read the privacy policy.",
+    "imageHosts": "External activity image hosts",
+    "supervisor": "Belgian Data Protection Authority",
+    "country": "Belgium"
   }
 }

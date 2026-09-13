@@ -110,7 +110,7 @@ h1 { font-size: 4.65vw; font-weight: 600; line-height: 1.22; letter-spacing: -.0
 .footer .logo { width: 24.5vw; align-self: start; }
 .footer-top nav { display: flex; flex-direction: column; align-items: flex-start; }
 .footer h2 { font-size: 1.35vw; letter-spacing: 0; font-weight: 700; margin-bottom: 2.3vw; }
-.footer-top nav a { font-size: 1.35vw; font-weight: 600; line-height: 1.6; }
+.footer-top nav a, .footer-top nav .social-pending-link { font-size: 1.35vw; font-weight: 600; line-height: 1.6; }
 .footer a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .footer-divider { border-top: .45vw dashed var(--color-beige); margin-top: 3.8vw; }
 .footer-controls { display: flex; justify-content: space-between; gap: 20px; align-items: center; margin-top: 1.6vw; }
@@ -118,7 +118,7 @@ h1 { font-size: 4.65vw; font-weight: 600; line-height: 1.22; letter-spacing: -.0
 .language-switcher button { background: var(--color-purple); color: var(--color-beige); min-height: 4vw; width: 12.7vw; padding: .7vw; border-radius: 1.35vw; font-size: 1.3vw; font-weight: 600; }
 .language-switcher button[aria-pressed="true"] { box-shadow: inset 0 0 0 2px #fbf5e37a; }
 .social-links { display: flex; gap: .95vw; }
-.social-links a { display: grid; place-items: center; width: 5vw; height: 5vw; border-radius: 50%; background: var(--color-purple); }
+.social-links a, .social-links button { display: grid; place-items: center; width: 5vw; height: 5vw; border-radius: 50%; background: var(--color-purple); }
 .social-links .social-icon { width: 3.1vw; height: 3.1vw; }
 .legal-links { display: flex; gap: 4.5vw; margin-top: .7vw; font-size: 1.3vw; font-weight: 600; }
 @media (min-width: 1100px) and (max-height: 750px) and (hover: hover) and (prefers-reduced-motion: no-preference) {
@@ -175,13 +175,13 @@ h1 { font-size: 4.65vw; font-weight: 600; line-height: 1.22; letter-spacing: -.0
   .footer-top { grid-template-columns: 1fr 24% 24%; gap: 22px; }
   .footer .logo { width: 220px; }
   .footer h2 { font-size: 14px; margin-bottom: 20px; }
-  .footer-top nav a { font-size: 14px; line-height: 1.7; }
+  .footer-top nav a, .footer-top nav .social-pending-link { font-size: 14px; line-height: 1.7; }
   .footer-divider { margin-top: 32px; border-width: 3px; }
   .footer-controls { margin-top: 20px; }
   .language-switcher { gap: 10px; }
   .language-switcher button { font-size: 13px; min-height: 44px; width: 112px; border-radius: 14px; }
   .social-links { gap: 8px; }
-  .social-links a { width: 44px; height: 44px; }
+  .social-links a, .social-links button { width: 44px; height: 44px; }
   .social-links .social-icon { width: 27px; height: 27px; }
   .legal-links { font-size: 12px; margin-top: 20px; gap: 30px; }
 }
@@ -235,7 +235,7 @@ h1 { font-size: 4.65vw; font-weight: 600; line-height: 1.22; letter-spacing: -.0
   .footer-top { grid-template-columns: 1fr 1fr; gap: 30px 14px; }
   .footer .logo { width: 185px; grid-column: 1 / -1; }
   .footer h2 { font-size: 13px; margin-bottom: 14px; }
-  .footer-top nav a { font-size: 13px; line-height: 1.85; }
+  .footer-top nav a, .footer-top nav .social-pending-link { font-size: 13px; line-height: 1.85; }
   .footer-divider { margin-top: 26px; }
   .footer-controls { flex-direction: column; align-items: flex-start; gap: 20px; }
   .language-switcher { width: 100%; gap: 8px; }
@@ -321,3 +321,10 @@ h1 { font-size: 4.65vw; font-weight: 600; line-height: 1.22; letter-spacing: -.0
 @media (prefers-reduced-motion: reduce) { .menu-toggle { transition: none; } }
 
 .route-loading { min-height: 100vh; min-height: 100dvh; }
+
+.social-pending-link { padding: 0; background: none; text-align: left; }
+.social-pending-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.social-notice { position: fixed; z-index: 200; right: max(20px, env(safe-area-inset-right)); bottom: max(20px, env(safe-area-inset-bottom)); width: min(390px, calc(100vw - 40px)); display: flex; align-items: center; gap: 12px; padding: 18px 16px 18px 22px; border: 1px solid var(--color-green); border-radius: 20px; background: var(--color-beige); color: #36392f; box-shadow: 0 8px 30px #36392f26; }
+.social-notice p { margin: 0; font-size: 15px; line-height: 1.6; }
+.social-notice button { flex: 0 0 44px; height: 44px; display: grid; place-items: center; border-radius: 12px; background: var(--color-green); color: var(--color-beige); }
+.social-notice svg { width: 22px; height: 22px; }

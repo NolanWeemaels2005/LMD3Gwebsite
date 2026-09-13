@@ -9,7 +9,7 @@ import { resolveFanGeometry } from '../utils/fanGeometry';
 gsap.registerPlugin(ScrollTrigger);
 
 export function BookingCTASection() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const section = useRef<HTMLElement>(null);
 
   useLayoutEffect(() => {
@@ -97,11 +97,25 @@ export function BookingCTASection() {
     return () => { mounted = false; media.revert(); };
   }, []);
 
-  // Translation changes may alter text height, but must not tear down the pin
-  // spacer: removing it clamps the document scroll position back to the gallery.
+  // Filters, load-more, translations and image/font layout changes can move
+  // the fan without resizing the viewport. Refresh measurements, never recreate
+  // the animation or change its scroll/hover channels.
   useLayoutEffect(() => {
-    ScrollTrigger.refresh();
-  }, [i18n.language]);
+    const element = section.current!;
+    const main = element.closest('main');
+    let frame = 0;
+    const refresh = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => ScrollTrigger.refresh());
+    };
+    const observer = new ResizeObserver(refresh);
+    if (main) {
+      observer.observe(main);
+      for (const child of Array.from(main.children)) observer.observe(child);
+    }
+    observer.observe(element);
+    return () => { cancelAnimationFrame(frame); observer.disconnect(); };
+  }, []);
 
   return <section className="booking" id="booking" ref={section} aria-labelledby="booking-title">
     <h2 id="booking-title">{t('cta.title')}</h2>

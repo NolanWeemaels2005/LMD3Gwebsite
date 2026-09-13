@@ -1,0 +1,15 @@
+{
+  "url": "https://nolanweemaels2005.github.io/LMD3Gwebsite/",
+  "name": "La Maison Des Trois Garçons",
+  "image": "social/la-maison-des-trois-garcons.jpg",
+  "routes": [
+    "/",
+    "/over-ons",
+    "/activiteiten",
+    "/pluspunten",
+    "/reserveren",
+    "/legal",
+    "/privacy",
+    "/cookies"
+  ]
+}

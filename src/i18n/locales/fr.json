@@ -9,7 +9,7 @@
     "whatsapp": "Whatsapp",
     "instagram": "Instagram",
     "facebook": "Facebook",
-    "rental": "Reis Verhuur",
+    "rental": "RELI",
     "reli": "Reli"
   },
   "nav": {
@@ -69,7 +69,9 @@
     "social": "Réseaux sociaux",
     "legal": "Mentions légales",
     "cookies": "Cookies",
-    "privacy": "Confidentialité"
+    "privacy": "Confidentialité",
+    "socialComingSoon": "Notre page {{platform}} n’est pas encore prête, mais arrive bientôt !",
+    "closeNotice": "Fermer le message"
   },
   "photos": {
     "caroussel0": "Transats sur la terrasse au bord de la piscine",
@@ -120,6 +122,104 @@
       "natuur": "Nature",
       "activiteiten": "Activité",
       "markten-winkels": "Marché & boutique"
+    },
+    "items": {
+      "la-table-des-epiciers": {
+        "name": "La table des epiciers",
+        "description": "Passez une agréable soirée chez Luc autour de spécialités belges et d’une bonne bière belge bien fraîche."
+      },
+      "bistrot-le-ptit-bouchon": {
+        "name": "Bistrot le p’tit bouchon",
+        "description": "Des ingrédients frais, un service chaleureux et un cadre magnifique avec vue sur les vignes."
+      },
+      "le-clos-des-vignes": {
+        "name": "Le Clos des Vignes",
+        "description": "Une cuisine de saison dans un domaine à l’écart, au milieu des vignes."
+      },
+      "chateau-mentone": {
+        "name": "Chateau Mentone",
+        "description": "Choisissez des plats frais et locaux à la carte, accompagnés d’un bon verre de vin du domaine."
+      },
+      "vigna": {
+        "name": "Vigna",
+        "description": "Savourez un délicieux menu en trois services, avec trois choix à chaque étape, une vue sur le superbe domaine et un bon verre de vin."
+      },
+      "la-table-de-pol": {
+        "name": "La table de Pol",
+        "description": "Un dîner raffiné au centre de Lorgues."
+      },
+      "le-bout-du-monde": {
+        "name": "Le bout du monde",
+        "description": "Un restaurant de cuisine traditionnelle, spécialisé dans les rognons de veau, les ris de veau, l’andouillette, le poisson frais et les coquilles Saint-Jacques. Pas d’options végétariennes ou véganes."
+      },
+      "cotignac": {
+        "name": "Cotignac",
+        "description": "Un village pittoresque et plein de caractère, officiellement classé parmi les plus beaux villages de France. Il se trouve au pied d’une falaise abritant des habitations troglodytiques historiques."
+      },
+      "tourtour": {
+        "name": "Tourtour",
+        "description": "Un village médiéval perché à 635 mètres d’altitude, offrant de magnifiques panoramas sur la région. Il est aussi surnommé le « village dans le ciel de Provence »."
+      },
+      "villecroze": {
+        "name": "Villecroze",
+        "description": "Un charmant village médiéval, réputé pour ses grottes anciennes, son centre historique et son magnifique parc avec des cascades."
+      },
+      "port-grimaud": {
+        "name": "Port Grimaud",
+        "description": "Connu dans le monde entier comme la Venise provençale. Une liaison en bateau permet de rejoindre facilement Saint-Tropez."
+      },
+      "sanary-sur-mer": {
+        "name": "Sanary-sur-Mer",
+        "description": "Une authentique ville côtière et un port de pêche, connus pour leurs bateaux traditionnels et leurs façades colorées. En haute saison, un marché nocturne s’y tient chaque soir."
+      },
+      "chutes-du-caramy": {
+        "name": "Chutes du Caramy",
+        "description": "Une magnifique double cascade cachée dans une gorge verdoyante et boisée. Inaccessible en voiture : garez-vous de préférence au parking du lac de Carcès."
+      },
+      "cascade-de-sillans": {
+        "name": "Cascade de Sillans",
+        "description": "L’une des cascades les plus impressionnantes du Var. Depuis le parking, payant en été, comptez environ vingt minutes de marche."
+      },
+      "le-lac-de-quinson": {
+        "name": "Le lac de Quinson",
+        "description": "Promenez-vous le long des eaux émeraude, sur des passerelles en bois, des escaliers en pierre et à travers des tunnels creusés dans la roche."
+      },
+      "sentier-du-littoral-van-saint-tropez": {
+        "name": "Sentier du Littoral de Saint-Tropez",
+        "description": "Cet impressionnant sentier longe les falaises calcaires sauvages, les criques turquoise cachées et les plages de sable blanc de la presqu’île de Saint-Tropez. Il dévoile une autre facette de la région, loin de l’agitation du port de plaisance. Randonnée de 12 km."
+      },
+      "domaine-fontainebleau-en-provence": {
+        "name": "Domaine Fontainebleau en Provence",
+        "description": "Un magnifique et prestigieux domaine viticole biologique de 170 hectares. Profitez d’une dégustation ou partez à la découverte du domaine en voiturette de golf."
+      },
+      "prestige-karting-le-luc": {
+        "name": "Prestige Karting Le Luc",
+        "description": "Envie de vous glisser dans la peau de Max Verstappen ou de découvrir qui est le plus rapide de la famille ? Rendez-vous chez Prestige Karting au Luc. Des possibilités sont également proposées aux enfants de moins de 12 ans."
+      },
+      "verdon-electronautic": {
+        "name": "Verdon Electronautic",
+        "description": "Une flotte de plus de trente bateaux électriques pour faire une promenade sur le lac."
+      },
+      "mountainbike-afdaling-vtt-dh-enduro": {
+        "name": "Descente en VTT (DH / Enduro)",
+        "description": "Ce bike park confidentiel, situé dans les collines juste au-dessus du lac de Carcès, propose des pistes de descente techniques avec des sauts, des drops, des épingles serrées et des virages relevés. Réservé aux vététistes expérimentés. Stationnement gratuit conseillé au parking du lac de Carcès."
+      },
+      "wekelijkse-markt-lorgues": {
+        "name": "Marché hebdomadaire de Lorgues",
+        "description": "Un marché hebdomadaire très touristique où les visiteurs belges et néerlandais se sentent vite chez eux. Tous les mardis."
+      },
+      "wekelijkse-markt-cotignac": {
+        "name": "Marché hebdomadaire de Cotignac",
+        "description": "Un marché provençal authentique et convivial, tous les mardis. En haute saison, mieux vaut arriver tôt."
+      },
+      "wekelijkse-markt-salernes": {
+        "name": "Marché hebdomadaire de Salernes",
+        "description": "Un marché provençal traditionnel à l’ombre des platanes. Le mercredi et le dimanche matin."
+      },
+      "wekelijkse-markt-carces": {
+        "name": "Marché hebdomadaire de Carcès",
+        "description": "Un petit marché hebdomadaire au centre de Carcès. Le samedi matin."
+      }
     }
   },
   "advantages": {
@@ -269,5 +369,136 @@
       "label": "Comparer {{label}} avant et après rénovation",
       "value": "{{value}} % de la photo avant rénovation visible"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Maison de vacances avec piscine privée à Carcès | La Maison Des Trois Garçons",
+      "description": "Découvrez La Maison Des Trois Garçons à Carcès, en Provence : piscine privée, quatre chambres et tout le confort pour un séjour reposant."
+    },
+    "about": {
+      "title": "À propos — notre histoire en Provence | La Maison Des Trois Garçons",
+      "description": "Découvrez l’histoire de La Maison Des Trois Garçons, la rénovation de notre maison à Carcès et la famille qui lui a donné son nom."
+    },
+    "activities": {
+      "title": "Activités autour de Carcès en Provence | La Maison Des Trois Garçons",
+      "description": "Explorez les villages, restaurants, vignobles et espaces naturels autour de Carcès. Retrouvez nos coups de cœur et préparez vos itinéraires."
+    },
+    "advantages": {
+      "title": "Les atouts — piscine, confort et équipements | La Maison Des Trois Garçons",
+      "description": "Découvrez la piscine privée, les quatre chambres, les deux salles de bains, la cuisine extérieure et les équipements de notre maison à Carcès."
+    },
+    "reservation": {
+      "title": "Réservez votre séjour à Carcès | La Maison Des Trois Garçons",
+      "description": "Demandez votre séjour à La Maison Des Trois Garçons en Provence. Arrivée et départ le dimanche, à partir d’une semaine. Découvrez les avis de nos hôtes."
+    },
+    "imageAlt": "La Maison Des Trois Garçons et sa piscine privée à Carcès",
+    "legal": {
+      "title": "Mentions légales | La Maison Des Trois Garçons",
+      "description": "Mentions légales de SenK : responsable Karen De Coster, coordonnées et utilisation du site La Maison Des Trois Garçons."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité | La Maison Des Trois Garçons",
+      "description": "Découvrez comment SenK traite votre demande de séjour, les prestataires concernés, les durées de conservation et vos droits."
+    },
+    "cookies": {
+      "title": "Cookies et stockage local | La Maison Des Trois Garçons",
+      "description": "Informations sur la préférence linguistique stockée localement et les services externes du site La Maison Des Trois Garçons."
+    }
+  },
+  "legalPages": {
+    "contact": "Responsable et contact",
+    "enterprise": "Numéro de TVA",
+    "updated": "Dernière mise à jour : {{date}}",
+    "providerLinks": "Prestataires et autorités de contrôle",
+    "safeguards": "Sécurité et garanties de transfert",
+    "authorities": "Autorités européennes de protection des données",
+    "legal": {
+      "title": "Mentions légales",
+      "sections": [
+        {
+          "title": "À propos de ce site",
+          "body": "Ce site est édité par SenK (TVA BE0825893137), établi à Hazendries 19, 1570 Tollembeek, Belgique. Il présente la maison de vacances La Maison Des Trois Garçons à Carcès, en France. Karen De Coster gère le site et les demandes de séjour pour SenK. Pour toute question, utilisez l’adresse e-mail ci-dessus."
+        },
+        {
+          "title": "Une demande de séjour",
+          "body": "Le formulaire permet de discuter d’un séjour et de vérifier les disponibilités. Son envoi ou l’accusé de réception automatique ne constitue pas une réservation définitive. Disponibilités, prix et conditions de séjour applicables sont communiqués séparément avant la confirmation d’une réservation. Le site ne traite aucun paiement en ligne. Un contrat d’hébergement de vacances à des dates déterminées ne bénéficie pas du droit légal de rétractation de quatorze jours. Cela concerne un contrat conclu, et non l’envoi d’une simple demande. Les possibilités d’annulation sont communiquées dans les conditions de réservation distinctes ; les autres droits légaux restent applicables."
+        },
+        {
+          "title": "Textes, photographies et autres droits",
+          "body": "Les photographies de la maison et de la famille ont été fournies par la responsable comme ses propres images. Les textes, photographies, logos et autres œuvres peuvent être protégés par des droits d’auteur ou d’autres droits. Leur réutilisation nécessite l’autorisation du titulaire, sauf exception légale. Les marques, logos, polices et icônes de tiers restent soumis à leurs droits et licences respectifs. Les fiches d’activités affichent des photographies provenant de sources externes. Leurs droits restent détenus par les titulaires concernés ; cette mention ne constitue pas une licence d’utilisation. Pour toute question relative à ces droits, contactez-nous à l’adresse ci-dessus."
+        },
+        {
+          "title": "Activités et liens externes",
+          "body": "Les activités sont proposées comme source d’inspiration. Offres, prix, horaires et accès peuvent évoluer ; vérifiez les informations auprès du prestataire. Les sites externes, notamment Google Maps et RELI, sont gérés indépendamment et disposent de leurs propres conditions et politiques de confidentialité. Ce site ne garantit pas la disponibilité de leurs services. Les droits légaux des visiteurs restent pleinement applicables."
+        },
+        {
+          "title": "Hébergement et signalements",
+          "body": "Le site est hébergé par GitHub Pages, un service de GitHub, Inc. Pour signaler une erreur ou poser une question sur les droits relatifs à un contenu, contactez Karen De Coster à l’adresse ci-dessus en précisant la page concernée."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": [
+        {
+          "title": "Qui est responsable ?",
+          "body": "SenK, Hazendries 19, 1570 Tollembeek, Belgique (TVA BE0825893137), est responsable du traitement des données personnelles via ce site. Karen De Coster est votre personne de contact à decosterkaren@icloud.com."
+        },
+        {
+          "title": "Quelles données et pourquoi ?",
+          "body": "Le formulaire demande votre nom, votre e-mail ou numéro de téléphone, vos dates d’arrivée et de départ et un message facultatif. Le type de coordonnées et la durée du séjour sont également transmis. Ces données servent à vous répondre, discuter des disponibilités et préparer une réservation. Le nom, les coordonnées et les dates sont nécessaires au traitement de la demande ; le message est facultatif. Ne transmettez aucun document d’identité, numéro de carte bancaire, renseignement médical ou autre donnée sensible via ce formulaire."
+        },
+        {
+          "title": "Base juridique et utilisation",
+          "body": "Votre demande est traitée à votre initiative en vue d’un éventuel contrat (article 6, paragraphe 1, point b du RGPD). Les données techniques nécessaires au fonctionnement du site et à la lutte contre les abus répondent à l’intérêt légitime de fournir un service fiable et sécurisé (article 6, paragraphe 1, point f). La responsable n’utilise pas les données de votre demande à des fins de newsletter, de publicité, de profilage ou de décision automatisée."
+        },
+        {
+          "title": "Destinataires",
+          "body": "La demande est transmise via Formspree et traitée par Karen De Coster. Formspree traite les données du formulaire et les données techniques nécessaires à l’envoi et à la sécurité, telles que l’adresse IP et les informations du navigateur. La correspondance adressée à l’e-mail iCloud indiqué passe par le service de messagerie Apple. GitHub Pages reçoit les données techniques nécessaires à la fourniture du site, telles que l’adresse IP, la page demandée et les informations du navigateur. La responsable ne vend pas vos données. Lorsque vous suivez un lien externe, la politique du prestataire concerné s’applique. Lors du chargement des photographies externes d’activités, votre navigateur contacte directement leur hébergeur, qui reçoit des données techniques telles que votre adresse IP et des informations sur votre navigateur. Le site n’envoie pas la page référente. Les hébergeurs concernés sont listés ci-dessous."
+        },
+        {
+          "title": "Transferts hors de l’Espace économique européen",
+          "body": "Les prestataires peuvent traiter des données hors de l’Espace économique européen. Formspree indique effectuer des traitements aux États-Unis et utiliser des clauses contractuelles types pour ses transferts en tant que sous-traitant. Les informations de confidentialité et de sécurité de Formspree, GitHub et Apple sont accessibles ci-dessous. Vous pouvez demander à Karen De Coster des informations sur les garanties applicables aux transferts de vos données."
+        },
+        {
+          "title": "Durée de conservation",
+          "body": "La responsable conserve les données pour traiter la demande, jusqu’à la confirmation de la réservation. Les données ensuite nécessaires à l’exécution du séjour convenu ou au respect d’obligations légales relèvent de la gestion de la réservation. Les demandes sans réservation sont supprimées au plus tard trois mois après le dernier contact. La suppression concerne la boîte de réception des formulaires et les e-mails associés ; les journaux techniques des prestataires sont soumis à leur propre politique de conservation."
+        },
+        {
+          "title": "Vos droits",
+          "body": "Vous pouvez demander l’accès, la rectification, l’effacement ou la limitation du traitement de vos données. Dans les cas prévus par le RGPD, vous disposez d’un droit à la portabilité et d’un droit d’opposition aux traitements fondés sur un intérêt légitime. Adressez votre demande à decosterkaren@icloud.com. Des informations supplémentaires ne seront demandées pour vérifier votre identité que si nécessaire. Une réponse est en principe apportée dans un délai d’un mois ; toute prolongation autorisée vous sera expliquée. Vous pouvez introduire une réclamation auprès d’une autorité compétente, notamment dans votre pays de résidence ou de travail."
+        },
+        {
+          "title": "Stockage local et modifications",
+          "body": "Le site enregistre uniquement votre choix manuel de langue comme préférence locale dans le navigateur. Consultez la page Cookies et stockage local pour en savoir plus. Cette politique est actualisée en cas de modification pertinente ; la date en haut indique sa dernière mise à jour."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies et stockage local",
+      "sections": [
+        {
+          "title": "Aucun cookie publicitaire ou analytique propre au site",
+          "body": "Le code du site ne dépose aucun cookie et ne contient aucun pixel publicitaire, outil d’analyse d’audience ou traceur de réseau social intégré. Les polices et les photographies propres au site sont chargées avec celui-ci. Les photographies d’activités sont chargées directement depuis des hébergeurs externes. Leurs requêtes et éventuels cookies dépendent de leurs politiques et des paramètres de votre navigateur. L’absence de cookies déposés par le code du site ne garantit donc pas que les services externes n’en utilisent jamais."
+        },
+        {
+          "title": "Votre préférence linguistique",
+          "body": "Lorsque vous choisissez le néerlandais, le français ou l’anglais, la valeur nl, fr ou en est enregistrée sous la clé siteLanguage dans localStorage. Il s’agit d’un stockage local dans le navigateur, pas d’un cookie. Cette préférence permet de conserver votre langue lors d’une prochaine visite et n’est pas transmise par le site comme donnée de suivi. Elle n’a actuellement pas de date d’expiration automatique : elle reste enregistrée jusqu’à modification ou suppression des données du site dans le navigateur."
+        },
+        {
+          "title": "Supprimer ou bloquer ce stockage",
+          "body": "Vous pouvez effacer la préférence linguistique en supprimant les données de ce site dans les paramètres du navigateur. Si le stockage local est bloqué, le site reste fonctionnel, mais votre choix ne sera pas mémorisé pour les visites suivantes. Sans préférence enregistrée, le site utilise une langue prise en charge par votre navigateur ou le néerlandais."
+        },
+        {
+          "title": "Formulaire et services externes",
+          "body": "Une demande n’est envoyée que lorsque vous cliquez sur Envoyer. Le service de formulaires et l’hébergeur traitent des données techniques de connexion conformément à la politique de confidentialité. Cela ne constitue pas en soi un cookie. Les liens externes ouvrent des services ayant leurs propres politiques. Si des cookies ou traceurs non nécessaires sont ajoutés ultérieurement, un choix de consentement adapté devra être proposé avant leur utilisation et cette information devra être mise à jour."
+        }
+      ]
+    },
+    "notice": "Vos données servent à traiter votre demande de séjour et à préparer une réservation. N’envoyez aucune donnée sensible.",
+    "privacyLink": "Lire la politique de confidentialité.",
+    "imageHosts": "Hébergeurs externes des images d’activités",
+    "supervisor": "Autorité de protection des données (Belgique)",
+    "country": "Belgique"
   }
 }

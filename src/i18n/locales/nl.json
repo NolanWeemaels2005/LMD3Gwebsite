@@ -9,7 +9,7 @@
     "whatsapp": "Whatsapp",
     "instagram": "Instagram",
     "facebook": "Facebook",
-    "rental": "Reis Verhuur",
+    "rental": "RELI",
     "reli": "Reli"
   },
   "nav": {
@@ -69,7 +69,9 @@
     "social": "Sociale media",
     "legal": "Legal",
     "cookies": "Cookies",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "socialComingSoon": "Onze {{platform}}-pagina is nog niet klaar, maar komt eraan!",
+    "closeNotice": "Melding sluiten"
   },
   "photos": {
     "caroussel0": "Ligstoelen op het terras aan het zwembad",
@@ -120,6 +122,104 @@
       "natuur": "Natuur",
       "activiteiten": "Activiteit",
       "markten-winkels": "Markt & winkel"
+    },
+    "items": {
+      "la-table-des-epiciers": {
+        "name": "La table des epiciers",
+        "description": "Geniet van een gezellige avond bij Luc, met Belgische kost en een fris Belgisch biertje."
+      },
+      "bistrot-le-ptit-bouchon": {
+        "name": "Bistrot le p’tit bouchon",
+        "description": "Verse ingrediënten, leuke bediening en een prachtige setting met uitzicht op de wijngaard."
+      },
+      "le-clos-des-vignes": {
+        "name": "Le Clos des Vignes",
+        "description": "Seizoensgebonden gerechten op een afgelegen domein in de wijngaarden"
+      },
+      "chateau-mentone": {
+        "name": "Chateau Mentone",
+        "description": "Kies voor verse lokale gerechten uit hun menu. Met een lekker glaasje wijn uit hun domein."
+      },
+      "vigna": {
+        "name": "Vigna",
+        "description": "Geniet van een heerlijk driegangenmenu met steeds keuze uit drie gerechten, uitzicht over het prachtige domein en een heerlijk glaasje wijn."
+      },
+      "la-table-de-pol": {
+        "name": "La table de Pol",
+        "description": "Klassevol dineren in het centrum van Lorgues."
+      },
+      "le-bout-du-monde": {
+        "name": "Le bout du monde",
+        "description": "Restaurant met een traditionele keuken, gespecialiseerd in kalfsnieren, zwezerik, andouillette, verse vis en coquilles; geen vegetarische of veganistische opties."
+      },
+      "cotignac": {
+        "name": "Cotignac",
+        "description": "Schilderachtig en karaktervol dorp dat officieel is uitgeroepen tot een van de mooiste dorpen van Frankrijk. Het ligt aan de voet van een rotswand met historische grotwoningen."
+      },
+      "tourtour": {
+        "name": "Tourtour",
+        "description": "Middeleeuws bergdorp op een hoogte van 635m, wat prachtige uitzichten op de streek geeft. Ook wel gekend als: “village dans le ciel de Provence”."
+      },
+      "villecroze": {
+        "name": "Villecroze",
+        "description": "Een charmant middeleeuws dorp, bekend om zijn eeuwenoude grotten, het middeleeuwse centrum en het prachtige park met watervallen."
+      },
+      "port-grimaud": {
+        "name": "Port Grimaud",
+        "description": "Wereldwijd bekend als het Venetië van de Provence. Gemakkelijk vervoer naar Saint-Tropez via de veerboot."
+      },
+      "sanary-sur-mer": {
+        "name": "Sanary-sur-Mer",
+        "description": "Een authentieke kustplaats en vissershaven, bekend om de traditionele vissersboten en gekleurde gevels. In het hoogseizoen is er elke avond een avondmarkt."
+      },
+      "chutes-du-caramy": {
+        "name": "Chutes du Caramy",
+        "description": "Prachtige dubbele waterval verborgen in een groene bosrijke kloof. Niet bereikbaar met de wagen. Je parkeert het best op de parking van le lac de Carcès."
+      },
+      "cascade-de-sillans": {
+        "name": "Cascade de Sillans",
+        "description": "Eén van de meest indrukwekkende watervallen van de Var. Van aan de parking (in de zomer betalend) is het ongeveer 20 minuten wandelen."
+      },
+      "le-lac-de-quinson": {
+        "name": "Le lac de Quinson",
+        "description": "Wandel langs het smaragdgroene water, over houten loopbruggen, stenen trappen en door in de rotsen uitgehouwen tunnels."
+      },
+      "sentier-du-littoral-van-saint-tropez": {
+        "name": "Sentier du Littoral van Saint-Tropez",
+        "description": "Deze indrukwekkende wandelroute loopt langs de ruige kalksteenkliffen, verborgen turquoise baaitjes en witte zandstranden van het schiereiland van Saint-Tropez. Het pad biedt wandelaars een unieke blik op de \"wilde kant\" van de regio, ver weg van de drukte van de jachthaven. (Wandeling van 12 km)."
+      },
+      "domaine-fontainebleau-en-provence": {
+        "name": "Domaine Fontainebleau en Provence",
+        "description": "Een prachtig en prestigieus biologisch wijndomein van 170 hectare, geniet van de heerlijke proeverij of ontdek het domein zelf in een golfkarretje."
+      },
+      "prestige-karting-le-luc": {
+        "name": "Prestige Karting Le Luc",
+        "description": "Wil je ervaren hoe het voelt om Max Verstappen te zijn, of ontdekken wie de echte snelheidsduivel van de familie is? Ga dan naar Prestige Karting in Le Luc. Er zijn ook mogelijkheden voor kinderen onder 12 jaar."
+      },
+      "verdon-electronautic": {
+        "name": "Verdon Electronautic",
+        "description": "Beschikt over een vloot van ruim 30 elektrische bootjes om een toer van het meer te doen."
+      },
+      "mountainbike-afdaling-vtt-dh-enduro": {
+        "name": "Mountainbike-afdaling (VTT DH / Enduro)",
+        "description": "Dit \"secret spot\" fietspark ligt in de heuvels pal boven het Lac de Carcès en biedt rasechte, technische afdalingstracks met uitdagende jumps, drops, strakke switchbacks en kombochten (VOOR ERVAREN MOUNTAINBIKERS). Je kunt de auto het beste gratis parkeren op de Parking du Lac de Carcès"
+      },
+      "wekelijkse-markt-lorgues": {
+        "name": "Weekelijkse markt Lorgues",
+        "description": "Zeer toeristische weekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag"
+      },
+      "wekelijkse-markt-cotignac": {
+        "name": "Weekelijkse markt Cotignac",
+        "description": "Een authentieke en gezellige Provençaalse markt. Elke dinsdag. Tip: ga in het hoogseizoen vroeg."
+      },
+      "wekelijkse-markt-salernes": {
+        "name": "Weekelijkse markt Salernes",
+        "description": "Een traditionele Provençaalse markt in de schaduw van de platanen. Elke woensdag- en zondagvoormiddag."
+      },
+      "wekelijkse-markt-carces": {
+        "name": "Weekelijkse markt Carcès",
+        "description": "Kleinschalige weekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag."
+      }
     }
   },
   "advantages": {
@@ -269,5 +369,136 @@
       "label": "Vergelijk {{label}} vóór en na de renovatie",
       "value": "{{value}}% vóór de renovatie zichtbaar"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Vakantiehuis met privézwembad in Carcès | La Maison Des Trois Garçons",
+      "description": "Geniet van La Maison Des Trois Garçons: een vakantiehuis in Carcès, Provence, met privézwembad, vier slaapkamers en alle comfort voor een ontspannen verblijf."
+    },
+    "about": {
+      "title": "Over ons — ons verhaal in de Provence | La Maison Des Trois Garçons",
+      "description": "Ontdek het verhaal achter La Maison Des Trois Garçons, de renovatie van ons vakantiehuis in Carcès en de familie achter de naam."
+    },
+    "activities": {
+      "title": "Activiteiten rond Carcès in de Provence | La Maison Des Trois Garçons",
+      "description": "Ontdek dorpen, restaurants, wijngaarden en natuur rond Carcès. Bekijk onze favorieten, filter uitstapjes en plan je route tijdens je verblijf in de Provence."
+    },
+    "advantages": {
+      "title": "Pluspunten — zwembad, comfort en faciliteiten | La Maison Des Trois Garçons",
+      "description": "Ontdek het privézwembad, vier slaapkamers, twee badkamers, buitenkeuken en alle faciliteiten van La Maison Des Trois Garçons in Carcès."
+    },
+    "reservation": {
+      "title": "Reserveer je verblijf in Carcès | La Maison Des Trois Garçons",
+      "description": "Vraag je verblijf aan bij La Maison Des Trois Garçons in de Provence. Aankomst en vertrek op zondag, vanaf één week. Bekijk de ervaringen van onze gasten."
+    },
+    "imageAlt": "Het vakantiehuis La Maison Des Trois Garçons met privézwembad in Carcès",
+    "legal": {
+      "title": "Wettelijke informatie | La Maison Des Trois Garçons",
+      "description": "Wettelijke informatie over SenK, beheerder Karen De Coster, contactgegevens en het gebruik van La Maison Des Trois Garçons."
+    },
+    "privacy": {
+      "title": "Privacyverklaring | La Maison Des Trois Garçons",
+      "description": "Lees hoe SenK je verblijfsaanvraag verwerkt, welke dienstverleners gegevens ontvangen, de bewaartermijnen en jouw privacyrechten."
+    },
+    "cookies": {
+      "title": "Cookies en lokale opslag | La Maison Des Trois Garçons",
+      "description": "Lees welke taalvoorkeur lokaal wordt opgeslagen en hoe externe diensten werken op de website van La Maison Des Trois Garçons."
+    }
+  },
+  "legalPages": {
+    "contact": "Beheerder en contact",
+    "enterprise": "Btw-nummer",
+    "updated": "Laatst bijgewerkt: {{date}}",
+    "providerLinks": "Dienstverleners en toezichthouders",
+    "safeguards": "Beveiliging en doorgiftewaarborgen",
+    "authorities": "Europese gegevensbeschermingsautoriteiten",
+    "legal": {
+      "title": "Wettelijke informatie",
+      "sections": [
+        {
+          "title": "Over deze website",
+          "body": "Deze website wordt uitgegeven door SenK (btw BE0825893137), gevestigd op Hazendries 19, 1570 Tollembeek, België. Ze stelt het vakantiehuis La Maison Des Trois Garçons in Carcès, Frankrijk, voor. Karen De Coster beheert de website en behandelt de verblijfsaanvragen namens SenK. Neem voor vragen contact op via het e-mailadres hierboven."
+        },
+        {
+          "title": "Een verblijfsaanvraag",
+          "body": "Het formulier dient om een verblijf te bespreken en de beschikbaarheid na te vragen. Verzending van het formulier of de automatische ontvangstbevestiging is geen definitieve reservatie. Beschikbaarheid, prijs en de toepasselijke verblijfsvoorwaarden worden afzonderlijk meegedeeld vóór een reservatie wordt vastgelegd. De website verwerkt geen online betalingen. Voor een overeenkomst voor vakantieaccommodatie op bepaalde datums geldt geen wettelijk herroepingsrecht van veertien dagen. Dit geldt pas voor een gesloten overeenkomst, niet voor het versturen van een vrijblijvende aanvraag. Eventuele annuleringsmogelijkheden worden in de afzonderlijke reservatievoorwaarden meegedeeld; overige wettelijke rechten blijven behouden."
+        },
+        {
+          "title": "Teksten, foto’s en andere rechten",
+          "body": "De foto’s van het vakantiehuis en de familie zijn door de beheerder aangeleverd als eigen beeldmateriaal. Op teksten, foto’s, logo’s en andere werken kunnen auteursrechten of andere rechten rusten. Hergebruik vereist toestemming van de rechthebbende, behalve waar een wettelijke uitzondering van toepassing is. Merknamen, logo’s, lettertypen en iconen van derden blijven onder hun eigen rechten en licenties vallen. De activiteitenkaarten tonen foto’s van externe bronnen. De rechten op die foto’s blijven bij de betreffende rechthebbenden; deze vermelding houdt geen gebruikslicentie in. Neem bij een vraag over beeldrechten contact op via het bovenstaande e-mailadres."
+        },
+        {
+          "title": "Informatie over activiteiten en externe links",
+          "body": "De activiteiten dienen als inspiratie voor je verblijf. Aanbod, prijzen, openingsuren en bereikbaarheid kunnen wijzigen; controleer actuele informatie bij de aanbieder. Externe websites, waaronder Google Maps en RELI, worden zelfstandig beheerd en hebben hun eigen voorwaarden en privacybeleid. Deze website garandeert de beschikbaarheid van hun diensten niet. Wettelijke rechten van bezoekers blijven onverkort van toepassing."
+        },
+        {
+          "title": "Hosting en melding van problemen",
+          "body": "De website wordt gehost via GitHub Pages, een dienst van GitHub, Inc. Heb je een fout ontdekt of een vraag over rechten op inhoud? Neem contact op met Karen De Coster via het bovenstaande e-mailadres en vermeld de betrokken pagina."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacyverklaring",
+      "sections": [
+        {
+          "title": "Wie is verantwoordelijk?",
+          "body": "SenK, Hazendries 19, 1570 Tollembeek, België (btw BE0825893137), is verantwoordelijk voor de verwerking van persoonsgegevens via deze website. Karen De Coster is de contactpersoon. Je kunt haar bereiken via decosterkaren@icloud.com."
+        },
+        {
+          "title": "Welke gegevens en waarom?",
+          "body": "Het aanvraagformulier vraagt je naam, e-mailadres of telefoonnummer, aankomst- en vertrekdatum en een eventueel bericht. Ook het type contactgegeven en de duur van het verblijf worden meegestuurd. Deze gegevens worden gebruikt om je te antwoorden, beschikbaarheid te bespreken en een reservatie voor te bereiden. Naam, contactgegeven en verblijfsdatums zijn nodig om de aanvraag te behandelen; een bericht is optioneel. Stuur geen identiteitsdocumenten, betaalkaartgegevens, medische informatie of andere gevoelige gegevens via dit formulier."
+        },
+        {
+          "title": "Rechtsgrond en gebruik",
+          "body": "De behandeling van je verblijfsaanvraag gebeurt op jouw verzoek met het oog op een mogelijke overeenkomst (artikel 6, lid 1, onder b, AVG). Technische gegevens die nodig zijn om de website te leveren en misbruik te bestrijden worden verwerkt voor het gerechtvaardigde belang van een veilige en werkende dienst (artikel 6, lid 1, onder f, AVG). De beheerder gebruikt je aanvraaggegevens niet voor nieuwsbrieven, advertenties, profilering of geautomatiseerde beslissingen."
+        },
+        {
+          "title": "Wie ontvangt gegevens?",
+          "body": "De aanvraag wordt via Formspree verzonden en door Karen De Coster behandeld. Formspree verwerkt de formuliergegevens en technische gegevens die nodig zijn voor verzending en beveiliging, zoals een IP-adres en browserinformatie. Correspondentie via het vermelde iCloud-adres wordt verwerkt via de e-maildienst van Apple. GitHub Pages ontvangt bij het leveren van de website technische gegevens, zoals het IP-adres, de opgevraagde pagina en browserinformatie. De beheerder verkoopt je gegevens niet. Klik je op een externe link, dan geldt op die website het beleid van de betreffende aanbieder. Bij het laden van externe activiteitenfoto’s maakt je browser rechtstreeks verbinding met de betreffende beeldhost. Die ontvangt daarbij technische gegevens, zoals je IP-adres en browserinformatie. De site stuurt geen verwijzende pagina mee. De betrokken hosts zijn hieronder vermeld."
+        },
+        {
+          "title": "Doorgifte buiten de Europese Economische Ruimte",
+          "body": "Dienstverleners kunnen gegevens buiten de Europese Economische Ruimte verwerken. Formspree vermeldt verwerking in de Verenigde Staten en het gebruik van standaardcontractbepalingen voor doorgiften als verwerker. De privacy- en beveiligingsinformatie van Formspree, GitHub en Apple is hieronder gelinkt. Je kunt bij Karen De Coster informatie vragen over de voor jouw gegevens toepasselijke doorgiftewaarborgen."
+        },
+        {
+          "title": "Bewaartermijn",
+          "body": "De beheerder bewaart aanvraaggegevens om de aanvraag te behandelen, tot de reservatie is vastgelegd. Gegevens die daarna nodig zijn om het overeengekomen verblijf uit te voeren of aan wettelijke verplichtingen te voldoen, vallen onder de verdere reserveringsadministratie. Aanvragen die niet tot een reservatie leiden, worden uiterlijk drie maanden na het laatste contact verwijderd. Verwijdering betreft zowel de formulierinbox als de bijbehorende e-mailcorrespondentie; technische loggegevens van dienstverleners vallen onder hun eigen bewaarbeleid."
+        },
+        {
+          "title": "Jouw rechten",
+          "body": "Je kunt vragen om inzage, verbetering, verwijdering of beperking van de verwerking van je gegevens. Waar de AVG dat bepaalt, heb je recht op overdraagbaarheid en kun je bezwaar maken tegen verwerking op basis van een gerechtvaardigd belang. Stuur je verzoek naar decosterkaren@icloud.com. Alleen wanneer nodig kan om aanvullende informatie worden gevraagd om je identiteit te controleren. Je ontvangt in beginsel binnen één maand een reactie; bij een toegestane verlenging word je geïnformeerd. Je mag een klacht indienen bij een bevoegde gegevensbeschermingsautoriteit, bijvoorbeeld in het land waar je woont of werkt."
+        },
+        {
+          "title": "Lokale opslag en wijzigingen",
+          "body": "De site bewaart uitsluitend je handmatig gekozen taal als lokale voorkeur in de browser. Meer informatie staat op de pagina Cookies en lokale opslag. Bij relevante wijzigingen wordt deze verklaring bijgewerkt; de datum bovenaan vermeldt de laatste wijziging."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies en lokale opslag",
+      "sections": [
+        {
+          "title": "Geen eigen advertentie- of analysecookies",
+          "body": "De websitecode plaatst geen cookies en bevat geen advertentiepixels, bezoekersanalyse of ingebedde sociale-mediatrackers. De lettertypen en eigen foto’s worden met de website geladen. Activiteitenfoto’s worden rechtstreeks van externe beeldhosts geladen. Hun verzoeken en eventuele cookies vallen onder het beleid van die hosts en de instellingen van je browser. De verklaring dat de websitecode geen cookies plaatst, is daarom geen garantie dat externe diensten nooit cookies gebruiken."
+        },
+        {
+          "title": "Je taalvoorkeur",
+          "body": "Wanneer je zelf Nederlands, Frans of Engels kiest, wordt de waarde nl, fr of en onder de sleutel siteLanguage in localStorage bewaard. Dit is lokale browseropslag, geen cookie. De voorkeur wordt gebruikt om je gekozen taal bij een volgend bezoek te behouden en wordt door de website niet als trackinggegeven verstuurd. De huidige opslag heeft geen automatische vervaldatum: ze blijft staan tot je de voorkeur wijzigt of de websitegegevens in je browser verwijdert."
+        },
+        {
+          "title": "Zelf verwijderen of blokkeren",
+          "body": "Je kunt de taalvoorkeur verwijderen door in de instellingen van je browser de websitegegevens voor deze site te wissen. Als lokale opslag is geblokkeerd, blijft de website werken; je taalkeuze wordt dan niet voor volgende bezoeken bewaard. Zonder opgeslagen keuze gebruikt de site een ondersteunde browsertaal of Nederlands."
+        },
+        {
+          "title": "Formulier en externe diensten",
+          "body": "Een aanvraag wordt pas verzonden wanneer je op Verstuur klikt. De formulierdienst en hostingprovider verwerken technische verbindingsgegevens zoals beschreven in de privacyverklaring. Dit is iets anders dan een cookie. Links naar externe websites openen diensten met hun eigen cookie- en privacybeleid. Als later niet-noodzakelijke cookies of trackers worden toegevoegd, moet vóór hun gebruik een passende toestemmingskeuze worden aangeboden en moet deze uitleg worden aangepast."
+        }
+      ]
+    },
+    "notice": "Je gegevens worden gebruikt om je verblijfsaanvraag te behandelen en een reservatie voor te bereiden. Stuur geen gevoelige gegevens mee.",
+    "privacyLink": "Lees de privacyverklaring.",
+    "imageHosts": "Externe beeldhosts voor activiteiten",
+    "supervisor": "Gegevensbeschermingsautoriteit (België)",
+    "country": "België"
   }
 }

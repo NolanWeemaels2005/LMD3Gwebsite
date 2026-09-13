@@ -1,3 +1,4 @@
+import { siteUrl } from '../hooks/useRoute';
 import { useRef,useState,type FormEvent } from 'react';
 import { useForm,ValidationError } from '@formspree/react';
 import { SubmissionError } from '@formspree/core';
@@ -19,6 +20,7 @@ export function ReservationForm() {
   <ReservationDates value={range} onChange={setRange} error={attempted?errors.dates:undefined}/>
   <div className="reservation-field"><label htmlFor="reservation-message">{t('reservation.message')}</label><textarea id="reservation-message" name="message" value={message} onChange={e=>setMessage(e.target.value)}/></div>
   <div aria-live="polite" className="field-error"><ValidationError errors={friendlyErrors} prefix=""/>{failed&&<p>{t('reservation.submitError')}</p>}</div>
+  <p className="reservation-privacy">{t('legalPages.notice')} <a href={siteUrl('/privacy')} target="_blank" rel="noopener noreferrer">{t('legalPages.privacyLink')}</a></p>
   <button className="button button--purple reservation-submit" type="submit" disabled={state.submitting}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" aria-hidden="true"><path d="m21 3-6 18-4-8-8-4Zm0 0L11 13"/></svg>{t(state.submitting?'reservation.sending':'reservation.send')}</button>
  </form>}
  </section>;

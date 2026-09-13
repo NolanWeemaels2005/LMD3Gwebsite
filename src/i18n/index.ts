@@ -25,7 +25,6 @@ void i18n.use(initReactI18next).init({
 });
 const updateDocument = (language: string) => {
   document.documentElement.lang = language;
-  document.querySelector('meta[name="description"]')?.setAttribute('content', i18n.t('hero.body').replaceAll('\n', ' '));
 };
 i18n.on('languageChanged', updateDocument);
 updateDocument(i18n.language);

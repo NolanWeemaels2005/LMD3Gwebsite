@@ -1,3 +1,5 @@
+import { LegalPage, type LegalKind } from './pages/LegalPage';
+import { PageMetadata } from './components/PageMetadata';
 import { AboutPage } from './pages/AboutPage';
 import { useTranslation } from 'react-i18next';
 import { useRoute, menuRoutes } from './hooks/useRoute';
@@ -15,5 +17,5 @@ import { Footer } from './components/Footer';
 export default function App() {
   const { t } = useTranslation();
   const route = useRoute();
-  return <><a href="#main" className="skip-link">{t('nav.skip')}</a><Header/><main id="main">{route === '/' ? <><HeroSection/><GallerySection/><LocationSection/><ReviewsSection/><BookingCTASection/></> : route === '/over-ons' ? <AboutPage/> : route === '/activiteiten' ? <ActivitiesPage/> : route === '/pluspunten' ? <AdvantagesPage/> : route === '/reserveren' ? <Suspense fallback={<section className="route-loading" aria-busy="true"/>}><ReservationPage/></Suspense> : <section className="route-pending"><h1>{t(menuRoutes.find(item => item.path === route)?.key ?? 'nav.home')}</h1><p>{t('nav.pending')}</p></section>}</main><Footer/></>;
+  return <><PageMetadata/><a href="#main" className="skip-link">{t('nav.skip')}</a><Header/><main id="main">{route === '/' ? <><HeroSection/><GallerySection/><LocationSection/><ReviewsSection/><BookingCTASection/></> : ['/legal','/privacy','/cookies'].includes(route) ? <LegalPage kind={route.slice(1) as LegalKind}/> : route === '/over-ons' ? <AboutPage/> : route === '/activiteiten' ? <ActivitiesPage/> : route === '/pluspunten' ? <AdvantagesPage/> : route === '/reserveren' ? <Suspense fallback={<section className="route-loading" aria-busy="true"/>}><ReservationPage/></Suspense> : <section className="route-pending"><h1>{t(menuRoutes.find(item => item.path === route)?.key ?? 'nav.home')}</h1><p>{t('nav.pending')}</p></section>}</main><Footer/></>;
 }

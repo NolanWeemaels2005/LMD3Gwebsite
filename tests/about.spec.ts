@@ -9,6 +9,11 @@ for(const [width,height] of [[1920,1080],[1440,900],[1024,1366],[768,1024],[390,
  const slider=page.getByRole('slider').first();await slider.scrollIntoViewIfNeeded();const b=(await slider.boundingBox())!;await page.mouse.move(b.x+b.width*.2,b.y+b.height*.5);await page.mouse.down();await page.mouse.move(b.x+b.width*.8,b.y+b.height*.5);await page.mouse.up();expect(Number(await slider.getAttribute('aria-valuenow'))).toBeGreaterThan(75);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await expect(page.locator('.about-story a')).toHaveAttribute('href','/LMD3Gwebsite/activiteiten');await expect(page.locator('.about-name a')).toHaveAttribute('href','/LMD3Gwebsite/reserveren');
+ for(const control of await page.getByRole('slider').all()){await control.press('Home');for(let n=0;n<25;n++)await control.press('ArrowRight');}
+ await page.locator('.fan').scrollIntoViewIfNeeded();await page.waitForTimeout(600);
+ const layers=await page.locator('.fan-card').evaluateAll(cards=>cards.map(card=>getComputedStyle(card).zIndex));expect(layers).toEqual(['1','3','5','7','6','4','2']);
+ await page.screenshot({path:`test-results/about-fan-${width}.png`});
+ await page.locator('body').click({position:{x:1,y:1}});await page.evaluate(()=>window.scrollTo({top:0,behavior:'instant'}));
  await page.screenshot({path:`test-results/about-${width}.png`,fullPage:true});
  await page.getByRole('button',{name:'Menu openen',exact:true}).click();await expect(page.locator('#main-menu a[aria-current="page"]')).toHaveText('Over ons');await page.keyboard.press('Escape');await page.waitForTimeout(1000);expect(errors).toEqual([]);
 });
