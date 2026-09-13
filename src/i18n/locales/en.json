@@ -90,7 +90,7 @@
   "activities": {
     "heroTitle": "Experience Provence\naround Carcès",
     "heroBody": "From charming Provençal villages and local markets to restaurants, vineyards and beautiful countryside. Discover the surroundings of Carcès and make the most of your stay in the heart of Provence.",
-    "heroAlt": "A Provençal village beyond the vineyards",
+    "heroAlt": "A vineyard in Provence at sunset",
     "favoritesTitle": "Our favourites",
     "favoritesBody": "A selection of places you won’t want to miss during your stay.",
     "allTitle": "Explore the local area",
@@ -126,7 +126,7 @@
     "hero": {
       "title": "Everything for a\ncarefree stay",
       "description": "La Maison Des Trois Garçons offers everything you need for a comfortable and unforgettable holiday in Provence.",
-      "alt": "The Provençal holiday home with blue shutters and a sunny terrace"
+      "alt": "View from the covered terrace over the private pool and garden"
     },
     "section": {
       "title": "The highlights of La Maison Des Trois Garçons",
@@ -236,5 +236,38 @@
     "calendarNavigation": "Calendar navigation",
     "clearDates": "Clear dates",
     "closeCalendar": "Close"
+  },
+  "about": {
+    "hero": {
+      "title": "Our history,\nyour story.",
+      "description": "La Maison Des Trois Garçons is the result of a dream, hard work and a love of Provence. Discover who we are, how the house has evolved and what makes this place so special to us.",
+      "alt": "The terrace and private pool at dusk beneath string lights"
+    },
+    "story": {
+      "title": "From an idea\nto a home.",
+      "paragraph1": "What began as a dream grew into La Maison Des Trois Garçons. During a trip to Provence, we fell in love with the region, its welcoming villages, nature, peace and atmosphere. We found a house with potential and, above all, a place where we immediately felt at home.",
+      "paragraph2": "With enthusiasm, time and dedication, we gradually transformed this house into a warm, comfortable place to enjoy life. Today, we share this special place with you.",
+      "alt": "A terrace table overlooking the vineyards"
+    },
+    "evolution": {
+      "title": "Then, now and everything in between.",
+      "description": "We preserved the traditional Provençal style while adding our own touch to La Maison Des Trois Garçons. A renovation that respects the original charm while providing all the comforts of today.",
+      "living": "Living room",
+      "terrace": "Terrace",
+      "livingBefore": "The living room before renovation, with a red feature wall",
+      "livingAfter": "The renovated living room with light walls and a corner sofa",
+      "terraceBefore": "The terrace before renovation, with fencing and artificial grass",
+      "terraceAfter": "The renovated terrace with loungers around the pool"
+    },
+    "name": {
+      "title": "A name with meaning.",
+      "paragraph1": "La Maison Des Trois Garçons takes its name from three sons, each of whom is part of the story behind the house in his own way. The name stands for family, togetherness and enjoying life together: exactly the feeling we want to share with our guests.",
+      "paragraph2": "What began as our personal retreat in Provence grew into a house where others can also enjoy special moments and make lasting memories.",
+      "alt": "The three sons sitting together on a rock bench"
+    },
+    "compare": {
+      "label": "Compare {{label}} before and after renovation",
+      "value": "{{value}}% of the before renovation image visible"
+    }
   }
 }

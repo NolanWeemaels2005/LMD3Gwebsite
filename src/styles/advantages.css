@@ -40,7 +40,7 @@
 }
 @media (max-width: 850px) and (min-width: 768px) { .advantages-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (max-width: 767px) {
- .advantages-hero .hero-image { object-position: 74% center; }
+ .advantages-hero .hero-image { object-position: 50% center; }
  .advantages-hero .hero-copy p { max-width: none; }
  .advantages-section { padding-block: 40px; }
  .advantages-section h2 { font-size: 27px; }

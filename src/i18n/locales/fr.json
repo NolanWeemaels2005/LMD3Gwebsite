@@ -90,7 +90,7 @@
   "activities": {
     "heroTitle": "Vivez la Provence\nautour de Carcès",
     "heroBody": "Villages provençaux pleins de charme, marchés locaux, restaurants, vignobles et nature préservée : découvrez les environs de Carcès et profitez pleinement de votre séjour au cœur de la Provence.",
-    "heroAlt": "Un village provençal au-delà des vignes",
+    "heroAlt": "Un vignoble provençal au coucher du soleil",
     "favoritesTitle": "Nos coups de cœur",
     "favoritesBody": "Une sélection de lieux à ne pas manquer pendant votre séjour.",
     "allTitle": "Découvrez les environs",
@@ -126,7 +126,7 @@
     "hero": {
       "title": "Tout pour un séjour\nen toute sérénité",
       "description": "La Maison Des Trois Garçons vous offre tout le nécessaire pour des vacances confortables et inoubliables en Provence.",
-      "alt": "La maison de vacances provençale aux volets bleus et sa terrasse ensoleillée"
+      "alt": "Vue depuis la terrasse couverte sur la piscine privée et le jardin"
     },
     "section": {
       "title": "Les atouts de La Maison Des Trois Garçons",
@@ -236,5 +236,38 @@
     "calendarNavigation": "Navigation du calendrier",
     "clearDates": "Effacer les dates",
     "closeCalendar": "Fermer"
+  },
+  "about": {
+    "hero": {
+      "title": "Notre histoire,\nvotre séjour.",
+      "description": "La Maison Des Trois Garçons est le fruit d’un rêve, de beaucoup de travail et d’un amour pour la Provence. Découvrez qui nous sommes, comment la maison a évolué et ce qui rend ce lieu si particulier à nos yeux.",
+      "alt": "La terrasse et la piscine privée au crépuscule, sous les guirlandes lumineuses"
+    },
+    "story": {
+      "title": "D’une idée\nà un chez-soi.",
+      "paragraph1": "Ce qui a commencé comme un rêve est devenu La Maison Des Trois Garçons. Lors d’un voyage en Provence, nous sommes tombés amoureux de la région, de ses villages accueillants, de sa nature, de son calme et de son atmosphère. Nous avons trouvé une maison pleine de potentiel et, surtout, un endroit où nous nous sommes immédiatement sentis chez nous.",
+      "paragraph2": "Avec beaucoup d’enthousiasme, de temps et de dévouement, nous avons transformé cette maison, étape par étape, en un lieu chaleureux et confortable où profiter de la vie. Aujourd’hui, nous partageons cet endroit unique avec vous.",
+      "alt": "Une table en terrasse avec vue sur les vignes"
+    },
+    "evolution": {
+      "title": "Hier, aujourd’hui et tout le chemin parcouru.",
+      "description": "Nous avons préservé le style provençal typique tout en apportant notre touche personnelle à La Maison Des Trois Garçons. Une rénovation respectueuse du charme d’origine, avec tout le confort d’aujourd’hui.",
+      "living": "Salon",
+      "terrace": "Terrasse",
+      "livingBefore": "Le salon avant rénovation, avec son mur rouge",
+      "livingAfter": "Le salon rénové aux murs clairs avec un canapé d’angle",
+      "terraceBefore": "La terrasse avant rénovation, avec clôture et gazon artificiel",
+      "terraceAfter": "La terrasse rénovée avec des transats autour de la piscine"
+    },
+    "name": {
+      "title": "Un nom qui a du sens.",
+      "paragraph1": "La Maison Des Trois Garçons doit son nom à trois fils qui, chacun à leur manière, font partie de l’histoire de la maison. Ce nom évoque la famille, les liens qui nous unissent et le plaisir d’être ensemble : exactement ce que nous souhaitons transmettre à nos hôtes.",
+      "paragraph2": "Ce qui était au départ notre refuge personnel en Provence est devenu une maison où d’autres peuvent aussi vivre de beaux moments et créer des souvenirs.",
+      "alt": "Les trois fils assis ensemble sur un banc de pierre"
+    },
+    "compare": {
+      "label": "Comparer {{label}} avant et après rénovation",
+      "value": "{{value}} % de la photo avant rénovation visible"
+    }
   }
 }

@@ -9,7 +9,7 @@ import '../styles/advantages.css';
 export function AdvantagesPage() {
  const {t} = useTranslation();
  return <>
-  <Hero className="advantages-hero" image={photo('bottomp5',1920)} srcSet={`${photo('bottomp5',960)} 960w, ${photo('bottomp5',1920)} 1920w, ${photo('bottomp5',2304)} 2304w`} title={t('advantages.hero.title')} body={t('advantages.hero.description')} alt={t('advantages.hero.alt')}>
+  <Hero className="advantages-hero" image={photo('pluspunten-hero',1920)} srcSet={`${photo('pluspunten-hero',960)} 960w, ${photo('pluspunten-hero',1920)} 1920w, ${photo('pluspunten-hero',2304)} 2304w`} title={t('advantages.hero.title')} body={t('advantages.hero.description')} alt={t('advantages.hero.alt')}>
    {([['/reserveren','nav.book','purple'],['/activiteiten','nav.activities','green']] as const).map(([path,key,color]) => <a key={path} href={siteUrl(path)} className={`button button--${color}`} onClick={event => {event.preventDefault();navigate(path);}}>{t(key)}</a>)}
   </Hero>
   <section className="advantages-section section-inset" aria-labelledby="advantages-title">

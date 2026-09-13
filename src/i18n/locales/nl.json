@@ -90,7 +90,7 @@
   "activities": {
     "heroTitle": "Beleef de Provence\nrondom Carcès",
     "heroBody": "Van sfeervolle Provençaalse dorpen en lokale markten tot restaurants, wijngaarden en prachtige natuur. Ontdek wat er te beleven valt rond Carcès en haal alles uit je verblijf in het hart van de Provence.",
-    "heroAlt": "Een Provençaals dorp achter de wijngaarden",
+    "heroAlt": "Een wijngaard in de Provence bij zonsondergang",
     "favoritesTitle": "Onze favorieten",
     "favoritesBody": "Een selectie van plekken die je niet mag missen tijdens je verblijf.",
     "allTitle": "Ontdek alles in de buurt",
@@ -126,7 +126,7 @@
     "hero": {
       "title": "Alles voor een\nzorgeloos verblijf",
       "description": "La Maison Des Trois Garçons biedt alles wat je nodig hebt\nvoor een comfortabele en onvergetelijke vakantie in de\nProvence.",
-      "alt": "De Provençaalse vakantiewoning met blauwe luiken en een zonnig terras"
+      "alt": "Uitzicht vanaf het overdekte terras op het privézwembad en de tuin"
     },
     "section": {
       "title": "De pluspunten van La Maison Des Trois Garçons",
@@ -236,5 +236,38 @@
     "calendarNavigation": "Kalendernavigatie",
     "clearDates": "Data wissen",
     "closeCalendar": "Sluiten"
+  },
+  "about": {
+    "hero": {
+      "title": "Onze geschiedenis,\njullie verhaal.",
+      "description": "La Maison Des Trois Garçons is het resultaat van een droom, veel werk en een liefde voor de Provence. Ontdek wie wij zijn, hoe het huis is geëvolueerd en wat deze plek voor ons zo bijzonder maakt.",
+      "alt": "Het terras en privézwembad bij avondlicht met feestverlichting"
+    },
+    "story": {
+      "title": "Van een idee\ntot een thuis.",
+      "paragraph1": "Wat begon als een droom, groeide uit tot La Maison Des Trois Garçons. Tijdens een reis door de Provence werden we verliefd op de regio, de gezellige dorpjes, de natuur, de rust en de sfeer. We vonden een huis met potentieel en vooral: een plek waar we ons meteen thuis voelden.",
+      "paragraph2": "Met veel enthousiasme, tijd en toewijding hebben we dit huis stap voor stap omgevormd tot een warme, comfortabele plek waar we kunnen genieten. Vandaag delen we deze bijzondere plek met jullie.",
+      "alt": "Een tafel op een terras met uitzicht op de wijngaarden"
+    },
+    "evolution": {
+      "title": "Toen, nu en alles daartussenin.",
+      "description": "We hebben de typische Provençaalse stijl bewaard, maar onze eigen touch gegeven aan La Maison Des Trois Garçons. Een renovatie met respect voor de originele charme, maar met alle comfort van nu.",
+      "living": "Woonkamer",
+      "terrace": "Terras",
+      "livingBefore": "De woonkamer vóór de renovatie, met rode accentmuur",
+      "livingAfter": "De vernieuwde woonkamer met lichte muren en een hoekbank",
+      "terraceBefore": "Het terras vóór de renovatie met hekwerk en kunstgras",
+      "terraceAfter": "Het vernieuwde terras met ligstoelen rond het zwembad"
+    },
+    "name": {
+      "title": "Een naam met betekenis.",
+      "paragraph1": "La Maison Des Trois Garçons dankt haar naam aan drie zonen, die elk op hun eigen manier deel uitmaken van het verhaal achter het huis. De naam staat voor familie, verbondenheid en samen genieten, precies het gevoel dat we ook aan onze gasten willen meegeven.",
+      "paragraph2": "Wat voor ons begon als een persoonlijke plek in de Provence, groeide uit tot een huis waar ook anderen mooie momenten en herinneringen kunnen maken.",
+      "alt": "De drie zonen zitten samen op een rotsbank"
+    },
+    "compare": {
+      "label": "Vergelijk {{label}} vóór en na de renovatie",
+      "value": "{{value}}% vóór de renovatie zichtbaar"
+    }
   }
 }
