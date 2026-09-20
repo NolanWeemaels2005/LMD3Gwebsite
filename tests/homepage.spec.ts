@@ -62,17 +62,18 @@ for (const [width,height] of sizes) {
     await page.locator('.footer').scrollIntoViewIfNeeded();
     await page.waitForTimeout(700);
     const end = await page.locator('.fan-card--1').evaluate(el => Number(getComputedStyle(el).getPropertyValue('--spread')));
-    expect(end).toBeGreaterThan(start);
+    if (width >= 1100) expect(end).toBeGreaterThan(start);
+    else expect(start).toBe(1);
     expect(end).toBeGreaterThan(.95);
     await page.screenshot({path:`test-results/footer-${width}.png`});
-    await page.getByRole('button',{name:'français',exact:true}).click();
+    await page.getByRole('link',{name:'français',exact:true}).click();
     await expect(page.locator('html')).toHaveAttribute('lang','fr');
     await expect(page.getByRole('heading',{name:'Prêts pour la Provence ?'})).toBeVisible();
     await page.reload();
     await expect(page.locator('html')).toHaveAttribute('lang','fr');
-    await page.getByRole('button',{name:'English',exact:true}).click();
+    await page.getByRole('link',{name:'English',exact:true}).click();
     await expect(page.locator('html')).toHaveAttribute('lang','en');
-    await page.getByRole('button',{name:'Nederlands',exact:true}).click();
+    await page.getByRole('link',{name:'Nederlands',exact:true}).click();
     await page.locator('#home').scrollIntoViewIfNeeded();
     await page.getByRole('button',{name:'Menu openen'}).click();
     await expect(page.locator('#main-menu')).toBeVisible();
@@ -82,12 +83,16 @@ for (const [width,height] of sizes) {
     expect(errors).toEqual([]);
   });
 }
-test('language detection priority, variants and Dutch fallback', async ({ browser }) => {
-  for (const [locale, expected] of [['de-DE','nl'],['fr-BE','fr'],['en-GB','en'],['nl-NL','nl']]) {
+test('language URLs remain deterministic across browser preferences', async ({ browser }) => {
+  for (const locale of ['de-DE','fr-BE','en-GB','nl-NL']) {
     const context = await browser.newContext({ locale });
     const page = await context.newPage();
     await page.goto('/');
-    await expect(page.locator('html')).toHaveAttribute('lang',expected);
+    await expect(page.locator('html')).toHaveAttribute('lang','nl');
+    await page.goto('/fr/');
+    await expect(page.locator('html')).toHaveAttribute('lang','fr');
+    await page.goto('/en/');
+    await expect(page.locator('html')).toHaveAttribute('lang','en');
     expect(await page.evaluate(() => localStorage.getItem('siteLanguage'))).toBeNull();
     await context.close();
   }

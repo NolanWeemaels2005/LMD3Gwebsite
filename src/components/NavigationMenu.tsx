@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
 import gsap from 'gsap';
 import { languages, selectLanguage } from '../i18n';
+import { localUrl, readLocation } from '../utils/localizedPaths';
 import { siteUrl, menuRoutes, navigate, useRoute } from '../hooks/useRoute';
 
 type Props = { trigger: RefObject<HTMLButtonElement | null>; onClosed: () => void; controller: RefObject<((destination?: string | null) => void) | null> };
@@ -89,7 +90,7 @@ export function NavigationMenu({ trigger, controller, onClosed }: Props) {
     <div ref={page} className="navigation-page" role="dialog" aria-modal="true" aria-label={t('nav.label')}>
       <div className="navigation-fold" aria-hidden="true" />
       <nav id="main-menu" className="navigation-links" aria-label={t('nav.label')}>{menuRoutes.map(item => <a className="navigation-enter" key={item.path} href={siteUrl(item.path)} aria-current={route === item.path ? 'page' : undefined} onClick={event => follow(event, item.path)}>{t(item.key)}</a>)}</nav>
-      <div className="navigation-languages navigation-enter" role="group" aria-label={t('footer.language')}>{languages.map(language => <button key={language} lang={language} aria-pressed={i18n.language === language} onClick={() => selectLanguage(language)}>{language.toUpperCase()}</button>)}</div>
+      <div className="navigation-languages navigation-enter" role="group" aria-label={t('footer.language')}>{languages.map(language => <a key={language} lang={language} hrefLang={language} href={localUrl(readLocation().route, language)} aria-current={i18n.language === language ? 'true' : undefined} onClick={event => { if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return; event.preventDefault(); selectLanguage(language); }}>{language.toUpperCase()}</a>)}</div>
     </div>
   </div>, document.body);
 }

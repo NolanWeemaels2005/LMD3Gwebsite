@@ -30,8 +30,8 @@ test('shared fan, language and close-before-navigation', async ({page}) => {
  const layers=await page.locator('.fan-card').evaluateAll(els=>els.map(e=>getComputedStyle(e).zIndex));
  await page.locator('.fan-card--3').hover();await page.waitForTimeout(450);expect(await page.locator('.fan-card').evaluateAll(els=>els.map(e=>getComputedStyle(e).zIndex))).toEqual(layers);
  await page.screenshot({path:'test-results/activities-fan.png'});
- await page.locator('.language-switcher button[lang="fr"]').click();await expect(page.locator('html')).toHaveAttribute('lang','fr');await expect(page.locator('#favorites-title')).toHaveText('Nos coups de cœur');
- await page.locator('.language-switcher button[lang="en"]').click();await expect(page.locator('#favorites-title')).toHaveText('Our favourites');expect(await page.evaluate(()=>localStorage.getItem('siteLanguage'))).toBe('en');
+ await page.locator('.language-switcher a[lang="fr"]').click();await expect(page.locator('html')).toHaveAttribute('lang','fr');await expect(page.locator('#favorites-title')).toHaveText('Nos coups de cœur');
+ await page.locator('.language-switcher a[lang="en"]').click();await expect(page.locator('#favorites-title')).toHaveText('Our favourites');expect(await page.evaluate(()=>localStorage.getItem('siteLanguage'))).toBe('en');
  await page.screenshot({path:'test-results/activities-footer.png'});
  await page.locator('.menu-toggle').click();await page.waitForTimeout(900);await page.locator('#main-menu a[href="/"]').click();expect(new URL(page.url()).pathname).toBe('/activiteiten');await expect(page).toHaveURL(/\/$/);
 });

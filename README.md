@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Vite prints the available local preview URL. `npm run build` checks TypeScript and
+Vite prints the available local preview URL. Old local `/LMD3Gwebsite/` links redirect to `/`. `npm run build` checks TypeScript and
 creates the production build in `dist`. `npm run preview` serves that build.
 
 ## Important files
@@ -51,13 +51,16 @@ inner wrapper owns active sizing. Transitions take 400ms with power3.out easing.
 Direct card transitions and gaps retain selection; leaving the entire fan resets
 it. Touch/tablet and reduced-motion layouts do not apply hover enlargement.
 
-Language priority is `siteLanguage` manual preference, then the first supported
-browser language, then Dutch. Regional language tags are normalized. Browser
-detection does not create a saved preference. Selection updates `<html lang>` and
-the description metadata. Storage errors do not block the page.
+Language is determined by the URL: Dutch at `/`, French at `/fr/`, English at `/en/`.
+Language links preserve the page and scroll position and work without JavaScript.
+The build generates all 24 translated pages, canonical/hreflang metadata, a sitemap
+and robots.txt for the custom domain. See [the launch guide](docs/LANCERING.md)
+for the Combell DNS records, GitHub Pages settings and Search Console steps.
 
-Homepage section links work. Future booking, legal, social and other-page links
-are intentionally inert placeholders; no destination pages are fabricated.
+On touch devices and below 1100px, the photo fan remains spread and reviews use
+native horizontal scrolling. A stable `svh` hero avoids document-height changes
+when browser toolbars move. The fixed header measures section colors when layout
+changes, without hit-testing and style reads on every scroll frame.
 
 ## Browser QA
 

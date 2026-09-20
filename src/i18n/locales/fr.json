@@ -29,7 +29,7 @@
   },
   "hero": {
     "title": "La Maison Des\nTrois Garçons",
-    "body": "La Maison Des Trois Garçons, une maison de vacances\npleine de charme à Carcès, au cœur de la Provence.\nSavourez le calme, la nature et la douceur du Sud.",
+    "body": "Une maison de vacances avec piscine privée\nà Carcès, au cœur de la Provence.\nDécouvrez Cotignac, Lorgues et la douceur du Sud.",
     "alt": "La villa provençale aux volets bleus et sa piscine baignée de soleil"
   },
   "gallery": {
@@ -43,7 +43,7 @@
   "location": {
     "title": "Découvrez Carcès et le cœur de la Provence",
     "subtitle": "Un havre de paix au cœur du sud de la France",
-    "body": "La Maison Des Trois Garçons se situe à Carcès, un charmant village provençal du Var. Depuis la maison, partez à la découverte de la nature, des vignobles, des marchés locaux et des villages de caractère de la Provence. Le point de départ idéal pour des vacances reposantes dans le sud de la France, avec de nombreuses visites et activités à proximité.",
+    "body": "Votre maison de vacances se situe à Carcès, un village provençal du Var. Promenez-vous autour du lac de Carcès ou découvrez le marché local. À proximité, Cotignac vous invite à explorer ses ruelles, ses terrasses et sa célèbre falaise ; Lorgues offre son marché du mardi et ses restaurants. Vignobles, nature et excursions rythment vos vacances en Provence. Après une journée de découverte, retrouvez le calme de votre piscine privée.",
     "button": "Toutes les activités",
     "map": "Carcès, dans le sud-est de la France, en Provence"
   },
@@ -91,7 +91,7 @@
   },
   "activities": {
     "heroTitle": "Vivez la Provence\nautour de Carcès",
-    "heroBody": "Villages provençaux pleins de charme, marchés locaux, restaurants, vignobles et nature préservée : découvrez les environs de Carcès et profitez pleinement de votre séjour au cœur de la Provence.",
+    "heroBody": "Découvrez Carcès, Cotignac et Lorgues depuis votre maison de vacances en Provence. Retrouvez nos suggestions de marchés, restaurants, vignobles et balades, avec temps de trajet et itinéraires depuis la maison.",
     "heroAlt": "Un vignoble provençal au coucher du soleil",
     "favoritesTitle": "Nos coups de cœur",
     "favoritesBody": "Une sélection de lieux à ne pas manquer pendant votre séjour.",
@@ -232,12 +232,6 @@
       "title": "Les atouts de La Maison Des Trois Garçons",
       "subtitle": "Notre maison de vacances à Carcès réunit tout pour un séjour confortable et pour savourer la douceur de vivre en Provence."
     },
-    "brochure": {
-      "title": "Envie de tout revoir tranquillement ?",
-      "subtitle": "Téléchargez la présentation complète des équipements de\nLa Maison Des Trois Garçons.",
-      "button": "Télécharger la brochure",
-      "accessibleLabel": "Télécharger la brochure de La Maison Des Trois Garçons"
-    },
     "gallery": {
       "label": "Photos des équipements",
       "pool": {
@@ -291,7 +285,7 @@
         "description": "Des toilettes séparées et des toilettes dans une salle de bains."
       },
       "barbecue": {
-        "title": "Barbecue à gaz",
+        "title": "Barbecue à gaz Weber",
         "description": "Savourez de délicieuses grillades à tout moment."
       },
       "petanque": {
@@ -372,19 +366,19 @@
   },
   "seo": {
     "home": {
-      "title": "Maison de vacances avec piscine privée à Carcès | La Maison Des Trois Garçons",
-      "description": "Découvrez La Maison Des Trois Garçons à Carcès, en Provence : piscine privée, quatre chambres et tout le confort pour un séjour reposant."
+      "title": "Maison avec piscine privée en Provence | Carcès",
+      "description": "Maison de vacances avec piscine privée à Carcès, en Provence, près de Cotignac et Lorgues. Quatre chambres et climatisation à La Maison Des Trois Garçons."
     },
     "about": {
       "title": "À propos — notre histoire en Provence | La Maison Des Trois Garçons",
       "description": "Découvrez l’histoire de La Maison Des Trois Garçons, la rénovation de notre maison à Carcès et la famille qui lui a donné son nom."
     },
     "activities": {
-      "title": "Activités autour de Carcès en Provence | La Maison Des Trois Garçons",
-      "description": "Explorez les villages, restaurants, vignobles et espaces naturels autour de Carcès. Retrouvez nos coups de cœur et préparez vos itinéraires."
+      "title": "Carcès, Cotignac et Lorgues : découvrir la Provence",
+      "description": "Explorez Carcès, Cotignac et Lorgues : marchés, restaurants, vignobles et nature. Nos suggestions et itinéraires depuis La Maison Des Trois Garçons."
     },
     "advantages": {
-      "title": "Les atouts — piscine, confort et équipements | La Maison Des Trois Garçons",
+      "title": "Maison avec piscine privée à Carcès | Équipements",
       "description": "Découvrez la piscine privée, les quatre chambres, les deux salles de bains, la cuisine extérieure et les équipements de notre maison à Carcès."
     },
     "reservation": {
@@ -500,5 +494,16 @@
     "imageHosts": "Hébergeurs externes des images d’activités",
     "supervisor": "Autorité de protection des données (Belgique)",
     "country": "Belgique"
+  },
+  "loading": {
+    "page": "Chargement de la page…",
+    "failed": "La page n’a pas pu être chargée.",
+    "retry": "Réessayer"
+  },
+  "homeIntro": {
+    "title": "Une maison de vacances avec piscine privée en Provence",
+    "body": "La Maison Des Trois Garçons est une maison de vacances à Carcès, dans le Var, près de Cotignac et de Lorgues. Quatre chambres, deux salles de bains et la climatisation vous accueillent pour un séjour reposant. À l’extérieur, profitez d’une piscine privée de 8,5 sur 4,5 mètres, d’une cuisine extérieure, d’un barbecue à gaz Weber et d’un terrain de pétanque. Le chauffage de la piscine est proposé en option.",
+    "stay": "La maison se trouve sur un domaine privé et calme de 3 500 m². Alternez baignades et visites des marchés, villages et vignobles provençaux. Les séjours commencent à une semaine, avec arrivée et départ le dimanche.",
+    "link": "Découvrez la piscine et les équipements"
   }
 }

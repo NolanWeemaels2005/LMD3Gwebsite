@@ -29,7 +29,7 @@
   },
   "hero": {
     "title": "La Maison Des\nTrois Garçons",
-    "body": "La Maison Des Trois Garçons, een sfeervol\nvakantiehuis in Carcès, in het hart van de Provence.\nGeniet van rust, natuur en de charme van Zuid-Frankrijk.",
+    "body": "Een sfeervolle vakantiewoning met privézwembad\nin Carcès, in het hart van de Provence.\nOntdek Cotignac, Lorgues en het goede leven in Zuid-Frankrijk.",
     "alt": "De Provençaalse villa met blauwe luiken en het zonovergoten zwembad"
   },
   "gallery": {
@@ -43,7 +43,7 @@
   "location": {
     "title": "Ontdek Carcès en het hart van de Provence",
     "subtitle": "Verscholen in het hart van Zuid-Frankrijk",
-    "body": "La Maison Des Trois Garçons ligt in Carcès, een charmant Provençaals dorp in de Var. Vanuit het vakantiehuis ontdek je eenvoudig de natuur, wijngaarden, lokale markten en karakteristieke dorpen van de Provence. De ideale uitvalsbasis voor een ontspannen vakantie in Zuid-Frankrijk, met tal van bezienswaardigheden en activiteiten in de buurt.",
+    "body": "Je vakantiewoning ligt in Carcès, een Provençaals dorp in de Var. Wandel langs het Lac de Carcès of ontdek de lokale markt. In het nabijgelegen Cotignac vind je sfeervolle straatjes, terrassen en de bekende rotswand; in Lorgues kun je terecht voor de dinsdagmarkt en restaurants. De omgeving biedt wijngaarden, natuur en uitstapjes om je vakantie in de Provence af te wisselen. Na een dag op pad keer je terug naar de rust van je eigen zwembad.",
     "button": "Alle activiteiten",
     "map": "Carcès, in het zuidoosten van Frankrijk, in de Provence"
   },
@@ -91,7 +91,7 @@
   },
   "activities": {
     "heroTitle": "Beleef de Provence\nrondom Carcès",
-    "heroBody": "Van sfeervolle Provençaalse dorpen en lokale markten tot restaurants, wijngaarden en prachtige natuur. Ontdek wat er te beleven valt rond Carcès en haal alles uit je verblijf in het hart van de Provence.",
+    "heroBody": "Ontdek Carcès, Cotignac en Lorgues vanuit je vakantiehuis in de Provence. Bekijk onze tips voor lokale markten, restaurants, wijngaarden en natuur, met reistijden en routes vanaf de woning.",
     "heroAlt": "Een wijngaard in de Provence bij zonsondergang",
     "favoritesTitle": "Onze favorieten",
     "favoritesBody": "Een selectie van plekken die je niet mag missen tijdens je verblijf.",
@@ -205,20 +205,20 @@
         "description": "Dit \"secret spot\" fietspark ligt in de heuvels pal boven het Lac de Carcès en biedt rasechte, technische afdalingstracks met uitdagende jumps, drops, strakke switchbacks en kombochten (VOOR ERVAREN MOUNTAINBIKERS). Je kunt de auto het beste gratis parkeren op de Parking du Lac de Carcès"
       },
       "wekelijkse-markt-lorgues": {
-        "name": "Weekelijkse markt Lorgues",
-        "description": "Zeer toeristische weekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag"
+        "name": "Wekelijkse markt Lorgues",
+        "description": "Zeer toeristische wekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag"
       },
       "wekelijkse-markt-cotignac": {
-        "name": "Weekelijkse markt Cotignac",
+        "name": "Wekelijkse markt Cotignac",
         "description": "Een authentieke en gezellige Provençaalse markt. Elke dinsdag. Tip: ga in het hoogseizoen vroeg."
       },
       "wekelijkse-markt-salernes": {
-        "name": "Weekelijkse markt Salernes",
+        "name": "Wekelijkse markt Salernes",
         "description": "Een traditionele Provençaalse markt in de schaduw van de platanen. Elke woensdag- en zondagvoormiddag."
       },
       "wekelijkse-markt-carces": {
-        "name": "Weekelijkse markt Carcès",
-        "description": "Kleinschalige weekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag."
+        "name": "Wekelijkse markt Carcès",
+        "description": "Kleinschalige wekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag."
       }
     }
   },
@@ -231,12 +231,6 @@
     "section": {
       "title": "De pluspunten van La Maison Des Trois Garçons",
       "subtitle": "In ons vakantiehuis in Carcès is alles aanwezig voor een comfortabel verblijf en het goede leven in de Provence."
-    },
-    "brochure": {
-      "title": "Alles nog eens rustig bekijken?",
-      "subtitle": "Download het volledige overzicht van alle faciliteiten van\nLa Maison Des Trois Garçons.",
-      "button": "Download de brochure",
-      "accessibleLabel": "Download de brochure van La Maison Des Trois Garçons"
     },
     "gallery": {
       "label": "Foto’s van de faciliteiten",
@@ -291,7 +285,7 @@
         "description": "Eén apart toilet en één in een badkamer."
       },
       "barbecue": {
-        "title": "Gasbarbecue",
+        "title": "Weber gasbarbecue",
         "description": "Altijd mogelijkheid voor een heerlijk stukje vlees op de barbecue."
       },
       "petanque": {
@@ -372,19 +366,19 @@
   },
   "seo": {
     "home": {
-      "title": "Vakantiehuis met privézwembad in Carcès | La Maison Des Trois Garçons",
-      "description": "Geniet van La Maison Des Trois Garçons: een vakantiehuis in Carcès, Provence, met privézwembad, vier slaapkamers en alle comfort voor een ontspannen verblijf."
+      "title": "Vakantiewoning met zwembad in de Provence | Carcès",
+      "description": "Vakantiewoning met privézwembad in Carcès, Provence, nabij Cotignac en Lorgues. Vier slaapkamers, airco en buitenkeuken. Ontdek La Maison Des Trois Garçons."
     },
     "about": {
       "title": "Over ons — ons verhaal in de Provence | La Maison Des Trois Garçons",
       "description": "Ontdek het verhaal achter La Maison Des Trois Garçons, de renovatie van ons vakantiehuis in Carcès en de familie achter de naam."
     },
     "activities": {
-      "title": "Activiteiten rond Carcès in de Provence | La Maison Des Trois Garçons",
-      "description": "Ontdek dorpen, restaurants, wijngaarden en natuur rond Carcès. Bekijk onze favorieten, filter uitstapjes en plan je route tijdens je verblijf in de Provence."
+      "title": "Carcès, Cotignac en Lorgues: uitstapjes in de Provence",
+      "description": "Ontdek Carcès, Cotignac en Lorgues: Provençaalse markten, restaurants, wijngaarden en natuur. Onze tips en routes vanuit La Maison Des Trois Garçons."
     },
     "advantages": {
-      "title": "Pluspunten — zwembad, comfort en faciliteiten | La Maison Des Trois Garçons",
+      "title": "Vakantiehuis met privézwembad in Carcès | Faciliteiten",
       "description": "Ontdek het privézwembad, vier slaapkamers, twee badkamers, buitenkeuken en alle faciliteiten van La Maison Des Trois Garçons in Carcès."
     },
     "reservation": {
@@ -500,5 +494,16 @@
     "imageHosts": "Externe beeldhosts voor activiteiten",
     "supervisor": "Gegevensbeschermingsautoriteit (België)",
     "country": "België"
+  },
+  "loading": {
+    "page": "De pagina wordt geladen…",
+    "failed": "De pagina kon niet worden geladen.",
+    "retry": "Opnieuw laden"
+  },
+  "homeIntro": {
+    "title": "Vakantiewoning met privézwembad in de Provence",
+    "body": "La Maison Des Trois Garçons is een vakantiehuis in Carcès, in de Var, vlak bij Cotignac en Lorgues. Vier slaapkamers, twee badkamers en airconditioning bieden comfort voor een ontspannen verblijf. Buiten geniet je van het privézwembad van 8,5 bij 4,5 meter, een buitenkeuken, een Weber gasbarbecue en een petanqueveld. Het zwembad kan optioneel verwarmd worden.",
+    "stay": "Het huis ligt op een rustig privédomein van 3.500 m². Wissel een dag aan het zwembad af met een bezoek aan Provençaalse markten, dorpen en wijngaarden. Je verblijft vanaf één week, met aankomst en vertrek op zondag.",
+    "link": "Bekijk het zwembad en alle faciliteiten"
   }
 }

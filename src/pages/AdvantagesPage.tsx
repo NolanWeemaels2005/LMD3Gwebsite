@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Hero } from '../components/HeroSection';
 import { BookingCTASection } from '../components/BookingCTASection';
-import { advantages, facilities, brochureUrl } from '../data/advantages';
+import { advantages, facilities } from '../data/advantages';
 import { photo, photoSet } from '../data/images';
 import { siteUrl, navigate } from '../hooks/useRoute';
 import '../styles/advantages.css';
@@ -17,7 +17,6 @@ export function AdvantagesPage() {
    <div className="advantages-grid">{advantages.map(item => <article className="advantage-card" key={item.key}><span className="advantage-icon"><img src={item.icon} alt="" width="80" height="80"/></span><h3>{t(`advantages.items.${item.key}.title`)}</h3><p>{t(`advantages.items.${item.key}.description`)}</p></article>)}</div>
    <div className="facilities-gallery" role="group" aria-label={t('advantages.gallery.label')}>{facilities.map(item => <figure className={`facility-photo facility-photo--${item.key}`} key={item.key}><img src={photo(item.photo)} srcSet={photoSet(item.photo)} sizes={item.key === 'pool' ? '(max-width: 1099px) 90vw, 45vw' : '(max-width: 767px) 90vw, (max-width: 1099px) 44vw, 22vw'} width="960" height="960" alt={t(`advantages.gallery.${item.key}.alt`)} loading="lazy"/><figcaption>{t(`advantages.gallery.${item.key}.label`)}</figcaption></figure>)}</div>
   </section>
-  <section className="brochure-section section-inset" aria-labelledby="brochure-title"><h2 id="brochure-title">{t('advantages.brochure.title')}</h2><p>{t('advantages.brochure.subtitle')}</p><a className="button button--purple" href={brochureUrl} download aria-label={t('advantages.brochure.accessibleLabel')}>{t('advantages.brochure.button')}</a></section>
   <BookingCTASection/>
  </>;
 }

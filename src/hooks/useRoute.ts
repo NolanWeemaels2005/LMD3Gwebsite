@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from 'react';
+import { localUrl, readLocation } from '../utils/localizedPaths';
 export const menuRoutes = [
   { path: '/', key: 'nav.home' },
   { path: '/over-ons', key: 'nav.about' },
@@ -10,13 +11,8 @@ const subscribe = (notify: () => void) => {
   window.addEventListener('popstate', notify);
   return () => window.removeEventListener('popstate', notify);
 };
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-export const siteUrl = (path: string) => `${base}/${path.replace(/^\//, '')}`;
-export function currentRoute() {
-  const pathname = window.location.pathname;
-  const route = pathname === base ? '/' : pathname.startsWith(`${base}/`) ? pathname.slice(base.length) : pathname;
-  return route.replace(/\/+$/, '') || '/';
-}
+export const siteUrl = localUrl;
+export const currentRoute = () => readLocation().route;
 export const useRoute = () => useSyncExternalStore(subscribe, currentRoute);
 export function navigate(path: string) {
   if (path === currentRoute()) return;

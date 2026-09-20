@@ -29,7 +29,7 @@
   },
   "hero": {
     "title": "La Maison Des\nTrois Garçons",
-    "body": "La Maison Des Trois Garçons, a charming holiday\nhome in Carcès, in the heart of Provence.\nEnjoy peace, nature and the charm of southern France.",
+    "body": "A holiday home with a private pool\nin Carcès, in the heart of Provence.\nDiscover Cotignac, Lorgues and life in southern France.",
     "alt": "The Provençal villa with blue shutters and its sunlit swimming pool"
   },
   "gallery": {
@@ -43,7 +43,7 @@
   "location": {
     "title": "Discover Carcès and the heart of Provence",
     "subtitle": "Tucked away in the heart of southern France",
-    "body": "La Maison Des Trois Garçons is set in Carcès, a charming Provençal village in the Var. From the house, it’s easy to explore the countryside, vineyards, local markets and characterful villages of Provence. The ideal base for a relaxing holiday in southern France, with plenty of sights and activities nearby.",
+    "body": "Your holiday home is in Carcès, a Provençal village in the Var. Walk by Lac de Carcès or explore the local market. Nearby Cotignac has charming streets, terraces and its distinctive cliff, while Lorgues offers a Tuesday market and restaurants. Vineyards, countryside and day trips add variety to your holiday in Provence. After a day exploring, return to the peace of your own swimming pool.",
     "button": "All activities",
     "map": "Carcès, in southeastern France, in Provence"
   },
@@ -91,7 +91,7 @@
   },
   "activities": {
     "heroTitle": "Experience Provence\naround Carcès",
-    "heroBody": "From charming Provençal villages and local markets to restaurants, vineyards and beautiful countryside. Discover the surroundings of Carcès and make the most of your stay in the heart of Provence.",
+    "heroBody": "Explore Carcès, Cotignac and Lorgues from your holiday home in Provence. Discover our tips for markets, restaurants, vineyards and countryside, with driving times and directions from the house.",
     "heroAlt": "A vineyard in Provence at sunset",
     "favoritesTitle": "Our favourites",
     "favoritesBody": "A selection of places you won’t want to miss during your stay.",
@@ -232,12 +232,6 @@
       "title": "The highlights of La Maison Des Trois Garçons",
       "subtitle": "Our holiday home in Carcès has everything you need for a comfortable stay and a taste of the good life in Provence."
     },
-    "brochure": {
-      "title": "Want to take another look?",
-      "subtitle": "Download the complete overview of all the facilities at\nLa Maison Des Trois Garçons.",
-      "button": "Download the brochure",
-      "accessibleLabel": "Download the La Maison Des Trois Garçons brochure"
-    },
     "gallery": {
       "label": "Photos of the facilities",
       "pool": {
@@ -291,7 +285,7 @@
         "description": "One separate toilet and one in a bathroom."
       },
       "barbecue": {
-        "title": "Gas barbecue",
+        "title": "Weber gas barbecue",
         "description": "Enjoy delicious food from the barbecue whenever you like."
       },
       "petanque": {
@@ -372,19 +366,19 @@
   },
   "seo": {
     "home": {
-      "title": "Holiday home with private pool in Carcès | La Maison Des Trois Garçons",
-      "description": "Enjoy La Maison Des Trois Garçons in Carcès, Provence: a holiday home with a private pool, four bedrooms and everything you need for a relaxing stay."
+      "title": "Holiday home with private pool in Provence | Carcès",
+      "description": "Holiday home with private pool in Carcès, Provence, near Cotignac and Lorgues. Four bedrooms and air conditioning at La Maison Des Trois Garçons."
     },
     "about": {
       "title": "About us — our story in Provence | La Maison Des Trois Garçons",
       "description": "Discover the story of La Maison Des Trois Garçons, the renovation of our holiday home in Carcès and the family behind its name."
     },
     "activities": {
-      "title": "Activities around Carcès in Provence | La Maison Des Trois Garçons",
-      "description": "Explore villages, restaurants, vineyards and nature around Carcès. Discover our favourites, filter local outings and plan your routes in Provence."
+      "title": "Carcès, Cotignac and Lorgues: explore Provence",
+      "description": "Explore Carcès, Cotignac and Lorgues: markets, restaurants, vineyards and countryside. Our tips and routes from La Maison Des Trois Garçons."
     },
     "advantages": {
-      "title": "Our highlights — pool, comfort and facilities | La Maison Des Trois Garçons",
+      "title": "Holiday home with pool in Carcès | Facilities",
       "description": "Discover the private pool, four bedrooms, two bathrooms, outdoor kitchen and all the facilities at La Maison Des Trois Garçons in Carcès."
     },
     "reservation": {
@@ -500,5 +494,16 @@
     "imageHosts": "External activity image hosts",
     "supervisor": "Belgian Data Protection Authority",
     "country": "Belgium"
+  },
+  "loading": {
+    "page": "Loading the page…",
+    "failed": "The page could not be loaded.",
+    "retry": "Try again"
+  },
+  "homeIntro": {
+    "title": "A holiday home with a private pool in Provence",
+    "body": "La Maison Des Trois Garçons is a holiday home in Carcès, in the Var, near Cotignac and Lorgues. Four bedrooms, two bathrooms and air conditioning provide comfort for a relaxing stay. Outside, enjoy the 8.5 by 4.5 metre private pool, an outdoor kitchen, a Weber gas barbecue and a pétanque court. Pool heating is available as an option.",
+    "stay": "The house sits on a peaceful private property of 3,500 m². Alternate days by the pool with visits to Provençal markets, villages and vineyards. Stays start from one week, with arrivals and departures on Sundays.",
+    "link": "Explore the pool and facilities"
   }
 }

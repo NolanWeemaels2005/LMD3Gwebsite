@@ -4,20 +4,11 @@ import nl from './locales/nl.json';
 import fr from './locales/fr.json';
 import en from './locales/en.json';
 
-export const languages = ['nl', 'fr', 'en'] as const;
-export type Language = (typeof languages)[number];
-const supported = (value: string | null): value is Language => languages.includes(value as Language);
-export function detectLanguage(): Language {
-  try {
-    const saved = localStorage.getItem('siteLanguage');
-    if (supported(saved)) return saved;
-  } catch { /* Storage may be disabled; browser detection still works. */ }
-  for (const locale of navigator.languages?.length ? navigator.languages : [navigator.language]) {
-    const base = locale.toLowerCase().split('-')[0];
-    if (supported(base)) return base;
-  }
-  return 'nl';
-}
+import { languages, readLocation, localUrl, type Language } from '../utils/localizedPaths';
+export { languages, type Language } from '../utils/localizedPaths';
+
+// A URL always identifies one language, including when storage is unavailable.
+export const detectLanguage = (): Language => readLocation().language;
 void i18n.use(initReactI18next).init({
   resources: { nl: { translation: nl }, fr: { translation: fr }, en: { translation: en } },
   lng: detectLanguage(), fallbackLng: 'nl', supportedLngs: [...languages],
@@ -30,6 +21,9 @@ i18n.on('languageChanged', updateDocument);
 updateDocument(i18n.language);
 export function selectLanguage(language: Language) {
   try { localStorage.setItem('siteLanguage', language); } catch { /* Session selection remains available. */ }
-  void i18n.changeLanguage(language);
+  const url = localUrl(readLocation().route, language) + window.location.search + window.location.hash;
+  window.history.pushState(null, '', url);
+  window.dispatchEvent(new PopStateEvent('popstate'));
 }
+window.addEventListener('popstate', () => { void i18n.changeLanguage(detectLanguage()); });
 export default i18n;

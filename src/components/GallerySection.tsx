@@ -1,10 +1,9 @@
 import { useLayoutEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { gsap, ScrollTrigger } from '../utils/scrollMotion';
 import { galleryPhotos, photo, photoSet } from '../data/images';
 import { Arrow } from './Shared';
-gsap.registerPlugin(ScrollTrigger);
+
 
 export function GallerySection() {
   const { t, i18n } = useTranslation();
@@ -50,19 +49,20 @@ export function GallerySection() {
     });
     const onScroll = () => { if (!section.current?.classList.contains('gallery--pinned')) update(area.scrollLeft); };
     area.addEventListener('scroll', onScroll, { passive: true });
-    const resize = new ResizeObserver(() => { onScroll(); ScrollTrigger.refresh(); });
+    const refreshPinned = () => { if (section.current?.classList.contains('gallery--pinned')) ScrollTrigger.refresh(); };
+    const resize = new ResizeObserver(() => { onScroll(); refreshPinned(); });
     resize.observe(area);
     // The rail also changes when photos are removed or replaced during editing.
     // Refresh the tween endpoint as well as the pin distance, not only on viewport resize.
     resize.observe(rail);
     update(0);
-    void document.fonts.ready.then(() => ScrollTrigger.refresh());
+    void document.fonts.ready.then(refreshPinned);
     return () => { resize.disconnect(); area.removeEventListener('scroll', onScroll); media.revert(); };
   }, [galleryPhotos]);
   // Translation changes may alter text height, but must not tear down the pin
   // spacer: removing it clamps the document scroll position back to the gallery.
   useLayoutEffect(() => {
-    ScrollTrigger.refresh();
+    if (section.current?.classList.contains('gallery--pinned')) ScrollTrigger.refresh();
   }, [i18n.language]);
 
   const move = (direction: number) => {

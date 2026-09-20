@@ -9,12 +9,12 @@ for(const [width,height] of [[1440,900],[1920,1080],[1024,1366],[768,1024],[390,
  await page.screenshot({path:`test-results/menu-open-${width}.png`});
  expect(await page.locator('#root').evaluate(el=>(el as HTMLElement).inert)).toBe(true);
  await expect(page.locator('.menu-toggle')).toBeFocused();
- await page.locator('.navigation-languages button').last().focus();await page.keyboard.press('Tab');await expect(page.locator('.shared-navigation-controls a')).toBeFocused();
- await page.locator('.navigation-languages button[lang="fr"]').click();await expect(page.locator('html')).toHaveAttribute('lang','fr');await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');
+ await page.locator('.navigation-languages a').last().focus();await page.keyboard.press('Tab');await expect(page.locator('.shared-navigation-controls a')).toBeFocused();
+ await page.locator('.navigation-languages a[lang="fr"]').click();await expect(page.locator('html')).toHaveAttribute('lang','fr');await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');
  await page.locator('.menu-toggle').click();await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','closing');await expect(page.locator('.navigation-scene')).toHaveCount(0);await expect(toggle).toBeFocused();
  await toggle.click();await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');
- await page.locator('#main-menu a[href="/activiteiten"]').click();expect(new URL(page.url()).pathname).toBe('/');await expect(page.locator('.navigation-scene')).toHaveCount(0);await expect(page).toHaveURL(/\/activiteiten$/);
- await toggle.click();await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');await expect(page.locator('#main-menu a[href="/activiteiten"]')).toHaveAttribute('aria-current','page');await page.keyboard.press('Escape');await expect(page.locator('.navigation-scene')).toHaveCount(0);
+ await page.locator('#main-menu a[href="/fr/activiteiten"]').click();expect(new URL(page.url()).pathname).toBe('/fr/');await expect(page.locator('.navigation-scene')).toHaveCount(0);await expect(page).toHaveURL(/\/fr\/activiteiten$/);
+ await toggle.click();await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');await expect(page.locator('#main-menu a[href="/fr/activiteiten"]')).toHaveAttribute('aria-current','page');await page.keyboard.press('Escape');await expect(page.locator('.navigation-scene')).toHaveCount(0);
  await page.emulateMedia({reducedMotion:'reduce'});await toggle.click();await expect(page.locator('.navigation-scene')).toHaveAttribute('data-state','open');await page.keyboard.press('Escape');await expect(page.locator('.navigation-scene')).toHaveCount(0);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
 });

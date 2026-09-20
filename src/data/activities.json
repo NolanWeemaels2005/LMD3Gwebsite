@@ -224,17 +224,17 @@
     },
     {
       "id": "wekelijkse-markt-lorgues",
-      "name": "Weekelijkse markt Lorgues",
+      "name": "Wekelijkse markt Lorgues",
       "category": "Markten & winkels",
       "location": "Lorgues",
       "address": "Lorgues, 83510, France",
-      "description": "Zeer toeristische weekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag",
+      "description": "Zeer toeristische wekelijkse markt waar Belgen en Nederlanders zich direct thuis voelen. Elke dinsdag",
       "imageUrl": "https://blog.villa.nl/wp-content/uploads/2024/07/0lorgues-markt-2-copy-1024x1024.jpg",
       "driveTimeMinutes": 22
     },
     {
       "id": "wekelijkse-markt-cotignac",
-      "name": "Weekelijkse markt Cotignac",
+      "name": "Wekelijkse markt Cotignac",
       "category": "Markten & winkels",
       "location": "Cotignac",
       "address": "Cotignac, 83570, France",
@@ -244,7 +244,7 @@
     },
     {
       "id": "wekelijkse-markt-salernes",
-      "name": "Weekelijkse markt Salernes",
+      "name": "Wekelijkse markt Salernes",
       "category": "Markten & winkels",
       "location": "Salernes",
       "address": "Salernes, 83690, France",
@@ -254,11 +254,11 @@
     },
     {
       "id": "wekelijkse-markt-carces",
-      "name": "Weekelijkse markt Carcès",
+      "name": "Wekelijkse markt Carcès",
       "category": "Markten & winkels",
       "location": "Carcès",
       "address": "Carcès, 83570, France",
-      "description": "Kleinschalige weekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag.",
+      "description": "Kleinschalige wekelijkse markt, in het centrum van Carcès. Elke zaterdag voormiddag.",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXFUZ9FsJs4H7PAnb4YIFx2Ws3eJCEOZlKnMU_6ZgqJLbpFPhoMU43Hbz&s=10",
       "driveTimeMinutes": 4
     }

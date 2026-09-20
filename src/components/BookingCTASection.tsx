@@ -1,12 +1,11 @@
 import { useLayoutEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { gsap, ScrollTrigger } from '../utils/scrollMotion';
 import { fanPhotos, fanLayers, photo, photoSet } from '../data/images';
 import { BookingButton } from './Shared';
 import { resolveFanGeometry } from '../utils/fanGeometry';
 
-gsap.registerPlugin(ScrollTrigger);
+
 
 export function BookingCTASection() {
   const { t } = useTranslation();
@@ -18,6 +17,8 @@ export function BookingCTASection() {
       desktop: '(min-width: 1100px) and (hover: hover) and (pointer: fine)',
       motion: '(prefers-reduced-motion: no-preference)',
     }, context => {
+      // Touch devices keep the fan spread without scroll-linked JS or repaints.
+      if (!context.conditions!.desktop || !context.conditions!.motion) return;
       const fan = section.current!.querySelector<HTMLElement>('.fan')!;
       const layout = fan.querySelector<HTMLElement>('.fan-layout')!;
       const cards = Array.from(section.current!.querySelectorAll<HTMLElement>('.fan-card'));
@@ -93,7 +94,7 @@ export function BookingCTASection() {
     });
     // Font loading can move this section after ScrollTrigger's first measure.
     let mounted = true;
-    void document.fonts.ready.then(() => { if (mounted) ScrollTrigger.refresh(); });
+    void document.fonts.ready.then(() => { if (mounted && matchMedia('(min-width: 1100px) and (hover: hover) and (pointer: fine)').matches) ScrollTrigger.refresh(); });
     return () => { mounted = false; media.revert(); };
   }, []);
 
@@ -101,6 +102,8 @@ export function BookingCTASection() {
   // the fan without resizing the viewport. Refresh measurements, never recreate
   // the animation or change its scroll/hover channels.
   useLayoutEffect(() => {
+    const media = gsap.matchMedia();
+    media.add('(min-width: 1100px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)', () => {
     const element = section.current!;
     const main = element.closest('main');
     let frame = 0;
@@ -115,6 +118,8 @@ export function BookingCTASection() {
     }
     observer.observe(element);
     return () => { cancelAnimationFrame(frame); observer.disconnect(); };
+    });
+    return () => media.revert();
   }, []);
 
   return <section className="booking" id="booking" ref={section} aria-labelledby="booking-title">
